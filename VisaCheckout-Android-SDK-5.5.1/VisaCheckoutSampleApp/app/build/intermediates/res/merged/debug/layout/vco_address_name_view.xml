@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vco_personName_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+  <android.support.design.widget.TextInputLayout
+      android:id="@+id/vco_til_firstName"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      style="@style/Widget.Design.TextInputLayout.Black">
+
+    <com.visa.checkout.widget.ClearableEditText
+        android:id="@+id/vco_et_firstName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vco_tvAddAddressFirstNameHint"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords|textNoSuggestions"
+        android:tag="@string/vco_rule_nickName"
+        style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+      android:id="@+id/vco_til_lastName"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      style="@style/Widget.Design.TextInputLayout.Black">
+
+    <com.visa.checkout.widget.ClearableEditText
+        android:id="@+id/vco_et_lastName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords|textNoSuggestions"
+        android:tag="@string/vco_rule_personName"
+        style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+  </android.support.design.widget.TextInputLayout>
+</RelativeLayout>

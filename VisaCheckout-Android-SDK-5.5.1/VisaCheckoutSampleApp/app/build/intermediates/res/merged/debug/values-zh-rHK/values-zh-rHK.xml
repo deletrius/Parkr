@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="com_visa_checkout_funding_option">
+    <item>信用</item>
+    <item>Electron（借記）</item>
+    <item>選擇資助選項</item>
+  </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽主頁"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s (%2$s)：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"顯示全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享對象"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string msgid="4778414446709286370" name="cast_ad_label">"廣告"</string>
+    <string msgid="366047012176970604" name="cast_casting_to_device">"正投放至「%1$s」"</string>
+    <string msgid="2888745622334830481" name="cast_closed_captions">"隱藏式字幕"</string>
+    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"未能提供隱藏式字幕"</string>
+    <string msgid="4431992200264667209" name="cast_disconnect">"中斷連線"</string>
+    <string msgid="5668979866539349222" name="cast_expanded_controller_ad_image_description">"投放接收器播放廣告時顯示的圖片"</string>
+    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"正在投放廣告…"</string>
+    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"專輯封面"</string>
+    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"即時串流"</string>
+    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"正在載入…"</string>
+    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"略過"</string>
+    <string msgid="7884080323096468593" name="cast_forward">"前轉"</string>
+    <string msgid="6424889955881797947" name="cast_forward_10">"前轉 10 秒"</string>
+    <string msgid="7868672855975238403" name="cast_forward_30">"前轉 30 秒"</string>
+    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
+    <string msgid="5637297909372905371" name="cast_mute">"靜音"</string>
+    <string msgid="5319032370587661362" name="cast_notification_connected_message">"已連接至「<ns1:g id="NAME">%1$s</ns1:g>」"</string>
+    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"正在連接至「<ns1:g id="NAME">%1$s</ns1:g>」"</string>
+    <string msgid="5232008641593292969" name="cast_notification_disconnect">"解除連接"</string>
+    <string msgid="5308503786390460607" name="cast_pause">"暫停"</string>
+    <string msgid="5906987965619702702" name="cast_play">"播放"</string>
+    <string msgid="1739665135565985480" name="cast_rewind">"倒帶"</string>
+    <string msgid="6432793028560778843" name="cast_rewind_10">"倒帶 10 秒"</string>
+    <string msgid="4677199707225681325" name="cast_rewind_30">"倒帶 30 秒"</string>
+    <string msgid="9078075166993780241" name="cast_seek_bar">"播放控制介面"</string>
+    <string msgid="3991548379225047363" name="cast_skip_next">"跳到下一個項目"</string>
+    <string msgid="8369073097776576935" name="cast_skip_prev">"跳到上一個項目"</string>
+    <string msgid="9191388946729723891" name="cast_stop">"停止"</string>
+    <string msgid="1219622777438777099" name="cast_stop_live_stream">"停止即時串流"</string>
+    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"音訊"</string>
+    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"取消"</string>
+    <string msgid="1779359505126875127" name="cast_tracks_chooser_dialog_closed_captions">"隱藏式字幕"</string>
+    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"歌曲 <ns1:g id="POSITION">%1$d</ns1:g>"</string>
+    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"沒有"</string>
+    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"確定"</string>
+    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"字幕"</string>
+    <string msgid="2913461521603516868" name="cast_unmute">"取消靜音"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"啟用"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必須啟用 Google Play 服務，方可執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"啟用 Google Play 服務"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"安裝"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"您的裝置尚未安裝 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"安裝 Google Play 服務"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play 服務錯誤"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」存取 Google Play 服務時發生問題。請稍後再試一次。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"您的裝置不支援 Google Play 服務，因此無法執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"您必須更新「Google Play 服務」，才能執行 <ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服務"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"正在更新 Google Play 服務，更新完成後方可執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"需要使用新版本的 Google Play 服務。更新會即將自動開始。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"在手機開啟"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"登入"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"透過 Google 登入"</string>
+    <string msgid="3698378085901466129" name="mr_button_content_description">"投放按鈕"</string>
+    <string msgid="5088427771788648085" name="mr_cast_button_connected">"投放按鈕。已連接"</string>
+    <string msgid="2187642765091873834" name="mr_cast_button_connecting">"投放按鈕。正在連接"</string>
+    <string msgid="816305490427819240" name="mr_cast_button_disconnected">"投放按鈕。已解除連接"</string>
+    <string msgid="6349900579507521956" name="mr_chooser_searching">"正在尋找裝置"</string>
+    <string msgid="414301941546135990" name="mr_chooser_title">"投放至"</string>
+    <string msgid="6422801843540543585" name="mr_controller_album_art">"專輯封面"</string>
+    <string msgid="4868457957151124867" name="mr_controller_casting_screen">"正在投放螢幕"</string>
+    <string msgid="7333862312480583260" name="mr_controller_close_description">"關閉"</string>
+    <string msgid="7924809056904240926" name="mr_controller_collapse_group">"收合"</string>
+    <string msgid="1227264889412989580" name="mr_controller_disconnect">"中斷連線"</string>
+    <string msgid="8062427022744266907" name="mr_controller_expand_group">"展開"</string>
+    <string msgid="5585418471741142924" name="mr_controller_no_info_available">"沒有詳細資料"</string>
+    <string msgid="6547130360349182381" name="mr_controller_no_media_selected">"尚未選擇媒體"</string>
+    <string msgid="5451884435510905406" name="mr_controller_pause">"暫停"</string>
+    <string msgid="683634565969987458" name="mr_controller_play">"播放"</string>
+    <string msgid="4570331844078181931" name="mr_controller_stop">"停止投放"</string>
+    <string msgid="2361785992211841709" name="mr_controller_volume_slider">"音量滑桿"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"系統"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"裝置"</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"清除搜尋"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"搜尋"</string>
+    <string msgid="368094699078615544" name="s1">"儲存圖片"</string>
+    <string msgid="4550830452390689489" name="s2">"允許廣告將圖片儲存至相片集嗎？"</string>
+    <string msgid="2435407834265420668" name="s3">"接受"</string>
+    <string msgid="9167523597401839819" name="s4">"拒絕"</string>
+    <string msgid="1566682516266724847" name="s5">"建立日曆活動"</string>
+    <string msgid="5996672174517137271" name="s6">"允許廣告建立日曆活動嗎？"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999 +"</string>
+    <string name="vco_accessibility_back_button">返回上一頁</string>
+    <string name="vco_accessibility_confirm_code">確認您的代碼</string>
+    <string name="vco_accessibility_createPasswordShowPassword">顯示您輸入的密碼</string>
+    <string name="vco_accessibility_createPasswordTitle">創建六個字符或更長的新密碼</string>
+    <string name="vco_accessibility_error_passcodeInvalid">您輸入的密碼無效。請再試一次</string>
+    <string name="vco_accessibility_fingerprint_checkbox_off">指紋選項已關閉。點擊即可開啟</string>
+    <string name="vco_accessibility_fingerprint_checkbox_on">指紋選項已開啟。點擊即可關閉</string>
+    <string name="vco_accessibility_hint_passCode">輸入您的密碼</string>
+    <string name="vco_accessibility_label_confirmidentity">我們要先確認您的身份</string>
+    <string name="vco_accessibility_label_entercode">輸入驗證碼</string>
+    <string name="vco_accessibility_label_newVerificationCodeInfo">您已達到嘗試輸入當前驗證碼的上限。如欲繼續驗證身分，我們將會傳送另一組驗證碼至%1$s。</string>
+    <string name="vco_accessibility_label_receive_email">您會在短時間內收到一封含有代碼的電子郵件。您沒有收到我們的電子郵件嗎？欲獲取新的代碼，請使用重新發送。</string>
+    <string name="vco_accessibility_label_sendVerificationCodeInfo">代碼將發送到您的電子郵件%1$s。請使用代碼驗證您的帳戶。</string>
+    <string name="vco_accessibility_label_send_newcode">發送新的代碼</string>
+    <string name="vco_accessibility_label_sendsCode">發送代碼</string>
+    <string name="vco_accessibility_rememberme_checkbox_off">「記得我」的選項已關閉。點擊即可打開</string>
+    <string name="vco_accessibility_rememberme_checkbox_on">「記得我」的選項已開啟。點擊即可關閉</string>
+    <string name="vco_accessibility_sendVerificationCodeInformation">為了您的帳戶安全，我們將發送一組驗證碼至%1$s。請使用該代碼來驗證您的身分。</string>
+    <string name="vco_addAddress_btn_continue">繼續</string>
+    <string name="vco_addAddress_error_brazilAddAddressComplimentInvalidError">尊稱無效</string>
+    <string name="vco_addAddress_error_brazilAddAddressPointOfRefInvalidError">參考點無效</string>
+    <string name="vco_addAddress_error_brazilAddAddressStreetNumInvalidError">街道號碼無效</string>
+    <string name="vco_addAddress_error_cityInvalidError">城市無效</string>
+    <string name="vco_addAddress_error_cityRequired">輸入城市</string>
+    <string name="vco_addAddress_error_contacts_launch">此應用程式沒有權限讀取您的地址簿</string>
+    <string name="vco_addAddress_error_gps_launch">此應用程式沒有權限讀取您的裝置所在位置</string>
+    <string name="vco_addAddress_error_invalidAddress">請輸入有效地址資料</string>
+    <string name="vco_addAddress_error_landmarkInvalid">地標無效</string>
+    <string name="vco_addAddress_error_landmarkRequired">輸入地標</string>
+    <string name="vco_addAddress_error_line3InvalidNz">郊區無效</string>
+    <string name="vco_addAddress_error_line3RequiredNz">輸入郊區</string>
+    <string name="vco_addAddress_error_lineInvalid">地址無效</string>
+    <string name="vco_addAddress_error_notAvailable">無法使用</string>
+    <string name="vco_addAddress_error_phoneInvalid">電話號碼無效</string>
+    <string name="vco_addAddress_error_phoneRequired">輸入電話號碼</string>
+    <string name="vco_addAddress_error_required">輸入地址</string>
+    <string name="vco_addAddress_error_stateInvalid">州份無效</string>
+    <string name="vco_addAddress_error_stateRequired">輸入州份</string>
+    <string name="vco_addAddress_error_streetInvalid">街道無效</string>
+    <string name="vco_addAddress_error_streetNumRequired">輸入街道號碼</string>
+    <string name="vco_addAddress_error_streetRequired">輸入街道</string>
+    <string name="vco_addAddress_error_zipInvalid">郵政編碼無效</string>
+    <string name="vco_addAddress_error_zipInvalidAu">郵區編號無效</string>
+    <string name="vco_addAddress_error_zipInvalidCa">郵寄代碼無效</string>
+    <string name="vco_addAddress_error_zipRequired">輸入郵政編碼</string>
+    <string name="vco_addAddress_error_zipRequiredAu">輸入郵區編號</string>
+    <string name="vco_addAddress_error_zipRequiredBr">輸入CEP</string>
+    <string name="vco_addAddress_error_zipRequiredCa">輸入郵寄代碼</string>
+    <string name="vco_addAddress_hint_addressline">地址</string>
+    <string name="vco_addAddress_hint_addressline1">地址第1行</string>
+    <string name="vco_addAddress_hint_addressline2">地址第2行</string>
+    <string name="vco_addAddress_hint_addressline2Optional">地址第2行（可選）</string>
+    <string name="vco_addAddress_hint_addressline3">地址第3行</string>
+    <string name="vco_addAddress_hint_addressline3Nz">郊區（可選）</string>
+    <string name="vco_addAddress_hint_cep">CEP</string>
+    <string name="vco_addAddress_hint_city">城市</string>
+    <string name="vco_addAddress_hint_cityTown">城市/城鎮</string>
+    <string name="vco_addAddress_hint_complement">尊稱（可選）</string>
+    <string name="vco_addAddress_hint_landmark">地標</string>
+    <string name="vco_addAddress_hint_name">姓名（名字和姓氏）</string>
+    <string name="vco_addAddress_hint_neighborhood">街區</string>
+    <string name="vco_addAddress_hint_number">號碼</string>
+    <string name="vco_addAddress_hint_phoneNumber">電話號碼</string>
+    <string name="vco_addAddress_hint_pincode">Pin碼</string>
+    <string name="vco_addAddress_hint_pointOfReference">參考點（可選）</string>
+    <string name="vco_addAddress_hint_postCode">郵政編號</string>
+    <string name="vco_addAddress_hint_postCodeOptionalTitle">郵政編號</string>
+    <string name="vco_addAddress_hint_postalCode">郵政編號</string>
+    <string name="vco_addAddress_hint_state">州</string>
+    <string name="vco_addAddress_hint_stateCa">省份</string>
+    <string name="vco_addAddress_hint_stateProvince">州/省</string>
+    <string name="vco_addAddress_hint_street">街道</string>
+    <string name="vco_addAddress_hint_zip">郵政編碼</string>
+    <string name="vco_addAddress_label_addAddressTitle">添加您的運送地址</string>
+    <string name="vco_addAddress_label_addressCarousel">地址旋轉式選項，向左或右滑動以選擇不同的地址。前往最右邊以添加新地址</string>
+    <string name="vco_addAddress_label_addressSuggestionRecommended">推薦地址：</string>
+    <string name="vco_addAddress_label_addressSuggestionVerify">請驗證您的地址</string>
+    <string name="vco_addAddress_label_addressSuggestionYouEntered">您輸入的地址：</string>
+    <string name="vco_addAddress_label_billingTitle">添加您的帳單地址</string>
+    <string name="vco_addAddress_label_cardCarousel">卡旋轉式選項，向左或右滑動以選擇不同的卡。前往最右邊以添加新卡</string>
+    <string name="vco_addAddress_label_couldntVerify">我們無法與郵政服務驗證您輸入的地址。您還是要儲存它嗎？</string>
+    <string name="vco_addAddress_label_deleteCard">刪除此地址</string>
+    <string name="vco_addAddress_label_editAddressTitle">編輯地址</string>
+    <string name="vco_addAddress_label_editCard">編輯此地址</string>
+    <string name="vco_addAddress_label_nextShipping">下一步：添加您的卡</string>
+    <string name="vco_addAddress_label_preferred">首選運送地址</string>
+    <string name="vco_addAddress_label_preferredContentDescription">這是我的首選付款方式</string>
+    <string name="vco_addAddress_label_preferredMessage">這是您的首選運送地址</string>
+    <string name="vco_addAddress_label_showAddressLine2">顯示地址第2行</string>
+    <string name="vco_addAddress_townCity">鎮/市</string>
+    <string name="vco_addaddress_house_aptnumber">門牌/寓所號碼</string>
+    <string name="vco_addaddress_house_invalid_error">門牌/寓所號碼無效</string>
+    <string name="vco_addaddress_house_required_error">輸入門牌/寓所號碼</string>
+    <string name="vco_address_accessibility_addressSuggestion">提議地址</string>
+    <string name="vco_address_alert_deleteSuccess">成功刪除地址</string>
+    <string name="vco_address_error_colony_invalid">鄰里無效</string>
+    <string name="vco_address_error_colony_required">輸入鄰里</string>
+    <string name="vco_address_error_county_or_municipality_invalid">縣或自治市無效</string>
+    <string name="vco_address_error_county_or_municipality_required">輸入縣或自治市</string>
+    <string name="vco_address_error_exterior_no_invalid">外部編號無效</string>
+    <string name="vco_address_error_exterior_no_required">輸入外部編號</string>
+    <string name="vco_address_error_interior_no_invalid">內部編號無效</string>
+    <string name="vco_address_error_locality_invalid">地點/州份無效</string>
+    <string name="vco_address_error_locality_required">輸入地點/州份</string>
+    <string name="vco_address_error_region_invalid">地區無效</string>
+    <string name="vco_address_error_region_required">輸入地區</string>
+    <string name="vco_address_hint_address_line3">地址第3行（可選）</string>
+    <string name="vco_address_hint_locality_state">地點/州份</string>
+    <string name="vco_address_hint_postal_code_optional">郵政編號（非必須）</string>
+    <string name="vco_address_hint_region">地區</string>
+    <string name="vco_address_label_colony">鄰里</string>
+    <string name="vco_address_label_county">縣</string>
+    <string name="vco_address_label_county_or_municipality">縣或自治市</string>
+    <string name="vco_address_label_district">區</string>
+    <string name="vco_address_label_district_invalid_error">區無效</string>
+    <string name="vco_address_label_district_required_error">輸入區</string>
+    <string name="vco_address_label_exterior_no">外部編號</string>
+    <string name="vco_address_label_interior_no">內部編號（可選）</string>
+    <string name="vco_address_session_about_to_expire">您的連線階段即將過期，請點擊畫面以繼續使用Visa Checkout</string>
+    <string name="vco_alertMessage_oneOrMoreError">一個或多個項目包含錯誤</string>
+    <string name="vco_back_button">返回上一個畫面</string>
+    <string name="vco_closeOverlay_accesibility_no_button">不，繼續使用Visa Checkout購買</string>
+    <string name="vco_closeOverlay_accesibility_yes_button">是，關閉並取消使用Visa Checkout的購買</string>
+    <string name="vco_common_accesibility_closeButton">關閉Visa Checkout</string>
+    <string name="vco_common_accesibility_close_vco_overlay">您是否要結束Visa Checkout？</string>
+    <string name="vco_common_accesibility_loadingAnimation">正在載入您的頁面</string>
+    <string name="vco_common_accesibility_vco_logo">Visa Checkout標誌</string>
+    <string name="vco_common_accessibility_secure_lock">您目前在一個加密頁面</string>
+    <string name="vco_common_accessibility_tcTitle">使用條例與條件</string>
+    <string name="vco_common_alertMessage_rdsAccountLockedInfo">為了保護您和防止未經授權的訪問，我們鎖上了您的帳戶。請聯繫客戶支援。</string>
+    <string name="vco_common_alert_discardChangesTitle">刪除更改</string>
+    <string name="vco_common_alert_exit">退出</string>
+    <string name="vco_common_alert_exitConfirmDeleteAddressTitle">刪除</string>
+    <string name="vco_common_alert_exitConfirmDeleteAddressTitleText">您確定要刪除此運送地址嗎？</string>
+    <string name="vco_common_alert_exitEnrollmentTitle">退出登記</string>
+    <string name="vco_common_alert_exitEnrollmentTitleText">您確定要停止創建您的帳戶嗎？</string>
+    <string name="vco_common_alert_exitTitle">離開付款</string>
+    <string name="vco_common_alert_exitTitleText">您確定要關閉Visa Checkout嗎？</string>
+    <string name="vco_common_alert_lockedTitle">帳戶被鎖上</string>
+    <string name="vco_common_alert_lockedTitleText">為了防止未經授權的訪問，我們已將您的帳戶鎖上1小時。請稍候再試</string>
+    <string name="vco_common_alert_maxAttemptsTitle">帳戶被鎖上</string>
+    <string name="vco_common_alert_maxAttemptsTitleText">您已超過允許嘗試次數上限。您可以在1小時後再試一次。若此造成任何不便之處，謹此致歉</string>
+    <string name="vco_common_alert_retry">再試</string>
+    <string name="vco_common_alert_retryTitleText">刪除此地址時似乎出現了問題。您是否要再試一次？</string>
+    <string name="vco_common_alert_saveChangesTitle">儲存更改？</string>
+    <string name="vco_common_alert_signinFailureTitle">無法登入</string>
+    <string name="vco_common_alert_usernameButtonText">Visa Checkout會展示您信用卡或借記卡的圖片款式，讓您有一個更個人化的購物體驗。</string>
+    <string name="vco_common_alert_usernameRememberText">此裝置會記住您的用戶名。登入時，只需輸入您的密碼。</string>
+    <string name="vco_common_alert_usernameTitle">個人化您的Visa Checkout體驗！</string>
+    <string name="vco_common_btn_addCardToMerchant">添加卡至商戶</string>
+    <string name="vco_common_btn_addressSuggestionUseThis">使用此地址</string>
+    <string name="vco_common_btn_cancel">取消</string>
+    <string name="vco_common_btn_createPassword">建立密碼</string>
+    <string name="vco_common_btn_delete">刪除</string>
+    <string name="vco_common_btn_deviceLockedReturnMerchant">返回商戶</string>
+    <string name="vco_common_btn_editAddress">編輯此地址</string>
+    <string name="vco_common_btn_forgotPasswordSendinstructions">發送代碼</string>
+    <string name="vco_common_btn_forgotPasswordSubmit">提交</string>
+    <string name="vco_common_btn_learnMore">（？）</string>
+    <string name="vco_common_btn_loginOtpGetNewResetCode">取得新的驗證碼</string>
+    <string name="vco_common_btn_no">否</string>
+    <string name="vco_common_btn_okay">確定</string>
+    <string name="vco_common_btn_otpGetNewResetCode">取得新的重置代碼</string>
+    <string name="vco_common_btn_pay">付款</string>
+    <string name="vco_common_btn_retry">再試</string>
+    <string name="vco_common_btn_saveAddress">儲存此地址</string>
+    <string name="vco_common_btn_updateTcAgree">同意並繼續</string>
+    <string name="vco_common_btn_updateTcDisagree">不同意並登出</string>
+    <string name="vco_common_btn_visaCheckout">Visa Checkout</string>
+    <string name="vco_common_btn_yes">是</string>
+    <string name="vco_common_country_argentina">阿根廷</string>
+    <string name="vco_common_country_australia">澳洲</string>
+    <string name="vco_common_country_brazil">巴西</string>
+    <string name="vco_common_country_canada">加拿大</string>
+    <string name="vco_common_country_chile">智利</string>
+    <string name="vco_common_country_china">中國</string>
+    <string name="vco_common_country_colombia">哥倫比亞</string>
+    <string name="vco_common_country_france">法國</string>
+    <string name="vco_common_country_hongkong">香港</string>
+    <string name="vco_common_country_india">印度</string>
+    <string name="vco_common_country_ireland">愛爾蘭</string>
+    <string name="vco_common_country_kuwait">科威特</string>
+    <string name="vco_common_country_malaysia">馬來西亞</string>
+    <string name="vco_common_country_mexico">墨西哥</string>
+    <string name="vco_common_country_newZealand">紐西蘭</string>
+    <string name="vco_common_country_peru">秘魯</string>
+    <string name="vco_common_country_poland">波蘭</string>
+    <string name="vco_common_country_qatar">卡塔爾</string>
+    <string name="vco_common_country_saudi_arabia">沙特阿拉伯</string>
+    <string name="vco_common_country_singapore">新加坡</string>
+    <string name="vco_common_country_southAfrica">南非</string>
+    <string name="vco_common_country_spain">西班牙</string>
+    <string name="vco_common_country_uae">阿拉伯聯合酋長國</string>
+    <string name="vco_common_country_ukraine">烏克蘭</string>
+    <string name="vco_common_country_unitedKingdom">英國</string>
+    <string name="vco_common_country_unitedStates">美國</string>
+    <string name="vco_common_credit">信用</string>
+    <string name="vco_common_electron_debit">Electron 借方</string>
+    <string name="vco_common_error_addFirstNameOnCardInvalid">名字無效</string>
+    <string name="vco_common_error_addFirstNameOnCardRequired">輸入名字</string>
+    <string name="vco_common_error_addLastNameOnCardInvalid">姓氏無效</string>
+    <string name="vco_common_error_addLastNameOnCardRequired">輸入姓氏</string>
+    <string name="vco_common_error_enroll_generic">很抱歉，我們暫時無法處理您的請求。請稍後再試，或創建新帳戶</string>
+    <string name="vco_common_error_generic">很抱歉，我們暫時無法處理您的請求。請稍後再試，或創建新帳戶</string>
+    <string name="vco_common_error_genericApologize">很抱歉，我們暫時無法處理您的請求。若有任何不便之處，謹此致歉</string>
+    <string name="vco_common_error_internalErrorCausedSdkExit">發生内部錯誤，導致付款中止</string>
+    <string name="vco_common_error_invalidPassword">請選擇另一個符合條件的密碼</string>
+    <string name="vco_common_error_networkProblem">網絡出現問題。請再試一次</string>
+    <string name="vco_common_error_noCardsOnFile">啊，看來您在系統内尚未擁有卡。請添加一張信用卡或借記卡以繼續購買。</string>
+    <string name="vco_common_error_ofacDeny">您的Visa Checkout帳戶暫時無法使用。請聯繫客戶支援</string>
+    <string name="vco_common_error_passwordConsecutiveIdenticalChars">不可含有3個或以上連續相同字符。</string>
+    <string name="vco_common_error_passwordContainsPortionOfAccountNameOrSpace">密碼不可含有空位或用戶名的任何一部份</string>
+    <string name="vco_common_error_passwordInsufficient">密碼必須含有至少6個字符</string>
+    <string name="vco_common_error_passwordInvalidChars">支持的特殊字符包括：！@＃$％＆*？</string>
+    <string name="vco_common_error_passwordTooLong">密碼不可含有超過32個字符</string>
+    <string name="vco_common_error_paymentProblem">您的付款無法處理。請修正卡資料後再試一次</string>
+    <string name="vco_common_error_sessionExpiredTitle">連線階段已過期</string>
+    <string name="vco_common_error_sessionTimedOut">為了安全起見，因為系統有一段時間沒有任何的操作，因此連線階段已過期。</string>
+    <string name="vco_common_error_signinChallengeLock">很抱歉，您提供的答案與我們的記錄不符。為了保護您和防止未經授權的訪問，我們暫時鎖上您的帳戶。請稍候再試，或創建新帳戶</string>
+    <string name="vco_common_error_signinLock">很抱歉，為保護您，我們已鎖上您的帳戶。如果您忘記了密碼，點擊「忘記密碼？」。如果您忘記了用戶名，創建新帳戶</string>
+    <string name="vco_common_error_signinLoginFailed">很抱歉，我們無法找到您的帳戶。請檢查您的用戶名或密碼</string>
+    <string name="vco_common_error_somethingWentWrong">我們目前遇到技術上的問題，若有不便之處，謹此致歉。請稍後再試。</string>
+    <string name="vco_common_error_somethingWentWrongTitle">出現錯誤</string>
+    <string name="vco_common_error_unableToProcessRequest">很抱歉，我們暫時無法處理您的請求。請稍後再試。</string>
+    <string name="vco_common_error_usernameAlreadyPresent">此電子郵件地址已經有關聯的用戶名。如果您忘記了密碼，請使用「忘記密碼」來重置密碼。</string>
+    <string name="vco_common_error_usernameConflict">根據我們的記錄，此電子郵件地址或行動電話號碼已經登記在一個Visa Checkout帳戶。</string>
+    <string name="vco_common_hint_emailAddress">電郵地址</string>
+    <string name="vco_common_label_cardDescription">Visa…1234</string>
+    <string name="vco_common_label_cityStateZip">城市，省份郵政編碼</string>
+    <string name="vco_common_label_confirmFingerprintNow">立即確認您的指紋。</string>
+    <string name="vco_common_label_cookies">Cookie</string>
+    <string name="vco_common_label_cookiesContentDescription">Cookie。</string>
+    <string name="vco_common_label_footerText">請注意，如您選擇不接收此等Cookie，Visa Checkout網站的部分功能可能按以上政策所述無法如預期運作。</string>
+    <string name="vco_common_label_forgotPassword">忘記密碼？</string>
+    <string name="vco_common_label_preferenceAnalytics">接受偏好Cookie、分析Cookie及廣告Cookie</string>
+    <string name="vco_common_label_privacy">隱私權</string>
+    <string name="vco_common_label_privacyContentDescription">隱私政策。</string>
+    <string name="vco_common_label_sandboxWatermark">僅供測試用途使用</string>
+    <string name="vco_common_label_sendEmailusing">使用以下發送電子郵件：</string>
+    <string name="vco_common_label_signUpConfirmation">您的Visa Checkout帳戶創建成功！</string>
+    <string name="vco_common_label_terms">條款</string>
+    <string name="vco_common_label_termsContentDescription">服務條例。Link</string>
+    <string name="vco_common_visa_credit">Visa Credit</string>
+    <string name="vco_common_visa_electron_debit">Visa Electron 借記</string>
+    <string name="vco_createAccount_alertMessage_internationalSanctions">我同意我的個人資料可被用於與國際制裁名單核對。</string>
+    <string name="vco_createAccount_alertTitle_internationalSanctions">國際制裁</string>
+    <string name="vco_createAccount_alertTitle_termsNConditions">使用條例與條件</string>
+    <string name="vco_createAccount_alert_termsPaginationOne">1（共 2）</string>
+    <string name="vco_createAccount_btn_disagree">不同意</string>
+    <string name="vco_createAccount_error_createAccountUsernamePhoneNumberRequired">輸入手機號碼</string>
+    <string name="vco_createAccount_hint_cpf_field">額外CPF</string>
+    <string name="vco_createAccount_hint_cpf_secondary">XXX.XXX.XXX-XX</string>
+    <string name="vco_createAccount_hint_createAccountPassword">建立密碼</string>
+    <string name="vco_createAccount_hint_createAccountUsernamePhoneNumber">手機號碼</string>
+    <string name="vco_createAccount_hint_password_noHint"/>
+    <string name="vco_createAccount_hint_secondaryCreateaccountusernamephonenumber">(xxx) xxx - xxxx</string>
+    <string name="vco_createAccount_hint_secondaryCreateaccountusernamephonenumber_au">(xxx) xxx - xxxx</string>
+    <string name="vco_createAccount_label_agree">同意</string>
+    <string name="vco_createAccount_label_createAccountTitle">建立帳戶</string>
+    <string name="vco_createAccount_label_createAccountUseMobileNumberLinkContentDescription">使用行動電話號碼為用戶名。Link</string>
+    <string name="vco_createAccount_label_createAccountUsernameEmail">登入電郵地址</string>
+    <string name="vco_createAccount_label_create_password">建立密碼</string>
+    <string name="vco_createAccount_label_next_review_and_continue_payment_details"><b>下一步: </b>檢查並確定您的付款詳情</string>
+    <string name="vco_createAccount_label_selectCountry">選擇國家</string>
+    <string name="vco_createAccount_label_signInRememberMeMsg">更簡單地登入此裝置</string>
+    <string name="vco_createPassword_error_password_must_change">密碼無效。新密碼必須和舊密碼不同</string>
+    <string name="vco_credit_only_message">此商戶不接受Electron（借記）方式。請切換到信用以使用此卡。</string>
+    <string name="vco_debit_only_message">此商戶不接受信用方式。請切換到Visa Electron（借記）以使用此卡。</string>
+    <string name="vco_email_customer_support">support@mail.checkout.visa.com</string>
+    <string name="vco_error_crimea_address">您輸入的資料不被支援。請聯 &lt;a href="contactcustomer"> 繫客戶支援。&lt;/a></string>
+    <string name="vco_exo_close_btn">關閉</string>
+    <string name="vco_exo_create_pwd_allowed_special_chars">\u2022 可接受的符號： ! @ # $ % &amp; * ?</string>
+    <string name="vco_exo_create_pwd_consec_chars">\u2022 不能使用3個以上的連續重複字符</string>
+    <string name="vco_exo_create_pwd_email_portion">\u2022 不能有一部分電子郵件</string>
+    <string name="vco_exo_create_pwd_invalid_password">無效的密碼</string>
+    <string name="vco_exo_create_pwd_length">\u2022 從6到32個字符</string>
+    <string name="vco_exo_forgotpwd_sendCode_contentDescr">將驗證碼發送到您的電子郵件</string>
+    <string name="vco_exo_hint_password">輸入密碼</string>
+    <string name="vco_exo_label_createPassword">請在下面輸入新密碼。成功創建密碼後，您將繼續本次的購買。</string>
+    <string name="vco_exo_label_forgotPasswordLink">忘記密碼？</string>
+    <string name="vco_exo_otp_could_not_confirm_label">我們無法確認代碼</string>
+    <string name="vco_exo_otp_device_locked_info">抱歉，我們無法完成此步驟。為了安全起見，我們暫時鎖定了您的帳戶。請稍後再試或聯繫&lt;a href=\"contactcustomer\">客戶支援。 &lt;/a> </string>
+    <string name="vco_exo_otp_label_getVerificationCode">我們要先確認您的身份</string>
+    <string name="vco_exo_otp_label_newVerificationCodeInfo">您已經以當前的驗證碼達到了嘗試次數上限。若要繼續，我們將向您發送另一代碼以確認身份。</string>
+    <string name="vco_exo_otp_label_new_getVerificationCode">取得新的驗證碼</string>
+    <string name="vco_exo_otp_label_sendVerificationCodeInfo">代碼將發送到您的電子郵件。請使用代碼驗證您的帳戶。</string>
+    <string name="vco_exo_otp_label_sendVerificationCodeInformation">為了您的帳戶安全，我們將發送一組驗證碼至您的電子郵箱。請使用該代碼來驗證您的身分。</string>
+    <string name="vco_exo_otp_label_send_newcode">發送新的代碼</string>
+    <string name="vco_forgorPassword_label_collectUsername">忘記您的密碼？輸入您的電子郵件地址以獲得指示</string>
+    <string name="vco_forgotPassword_error_notFound">我們無法在系統找到此電子郵件地址。請嘗試輸入其他電子郵件地址，或者您也可以創建新的Visa Checkout帳戶。</string>
+    <string name="vco_forgotPassword_error_resetCodeRequired">輸入重置代碼</string>
+    <string name="vco_forgotPassword_label_adviceText">輸入關聯到您Visa Checkout帳戶的電子郵件地址，我們就會發送用來重置密碼的代碼給您。</string>
+    <string name="vco_forgotPassword_label_codeSent">忘記密碼。重置代碼已發送到您的電子郵件</string>
+    <string name="vco_forgotPassword_label_collectCodeAdvicetext2">新的代碼已發送到%1$s。如果您還沒有收到，請稍等幾分鐘。請按照電子郵件内的指示繼續</string>
+    <string name="vco_forgotPassword_label_collectCodeEmailNotreceived">還沒有看到電子郵件？</string>
+    <string name="vco_forgotPassword_label_collectCodeTitle">輸入密碼重置代碼</string>
+    <string name="vco_forgotPassword_label_getNewCodeAdviceText">我們會發送新的密碼重置代碼到%1$s</string>
+    <string name="vco_forgotPassword_label_getNewCodeTitle">取得新的重置代碼</string>
+    <string name="vco_forgotPassword_label_title">忘記您的密碼？</string>
+    <string name="vco_forgotPassword_label_waitFewMoreMinutes">稍等幾分鐘 - 因您的網絡連接速度或者電子郵件服務供應商而異，可能會需要更多時間</string>
+    <string name="vco_forgotPassword_minimum_character">最少 6個字符</string>
+    <string name="vco_forgotPassword_textfieldHint_collectCode">輸入代碼</string>
+    <string name="vco_fp_accesibility_fingerprint_image">指紋圖像</string>
+    <string name="vco_fp_accesibility_forgot_password">忘記您的Visa Checkout密碼？重置密碼</string>
+    <string name="vco_fp_accesibility_invalid_finger_print">您的指紋並不相符。請再試一次。</string>
+    <string name="vco_fp_accesibility_signInScreenTitle">歡迎回到Visa Checkout指紋驗證</string>
+    <string name="vco_fp_btn_cancel">取消</string>
+    <string name="vco_fp_btn_use_password">使用密碼</string>
+    <string name="vco_fp_error_no_match">不符合。請再試一次。</string>
+    <string name="vco_fp_error_session_expired">登入以重新開始購買</string>
+    <string name="vco_fp_error_session_expired_inactivity">為了保護您的Visa Checkout帳戶，現已登出。請登入以重新開始。</string>
+    <string name="vco_fp_label_sign_in_successful">已成功登入！</string>
+    <string name="vco_label_createAccount_hide_password">隱藏</string>
+    <string name="vco_label_createAccount_show_password">顯示</string>
+    <string name="vco_login_btn_cust_support">客戶支援</string>
+    <string name="vco_login_btn_forgot_pwd">忘記密碼</string>
+    <string name="vco_login_btn_reset_pwd">重置密碼</string>
+    <string name="vco_login_label_contact_cust_support">聯繫客戶支援</string>
+    <string name="vco_login_label_cust_support_help">為了安全起見，我們已經鎖上您的Visa Checkout帳戶。請聯繫客戶支援以獲取協助。</string>
+    <string name="vco_login_label_device_lock">為了安全起見，我們已經暫時鎖上此裝置以禁用Visa Checkout。請稍後再試。</string>
+    <string name="vco_login_label_forgot_pwd_info">很抱歉，您輸入的密碼不符合我們的存檔資料。如果您忘記了密碼，可使用「忘記密碼」按鈕來重置密碼。</string>
+    <string name="vco_login_label_forgot_pwd_ques">忘記您的密碼</string>
+    <string name="vco_login_label_reset_pwd">重置密碼</string>
+    <string name="vco_login_label_reset_pwd_info">為了安全起見，我們已經暫時鎖上您的Visa Checkout帳戶。您可稍後再試或重置密碼。</string>
+    <string name="vco_login_label_reset_your_pwd">重置密碼</string>
+    <string name="vco_login_label_sign_into_vco">登入Visa Checkout</string>
+    <string name="vco_login_label_try_again_later">請稍候再試</string>
+    <string name="vco_otp_btn_confirmCode">確認代碼</string>
+    <string name="vco_otp_error_expiredMessage">很抱歉，您已超過重置代碼的嘗試次數上限。若要繼續，請重新要求新的代碼，然後再試一次。</string>
+    <string name="vco_otp_error_expiredOtp">您的驗證碼已過期。請重新要求新的驗證碼，然後再試一次。</string>
+    <string name="vco_otp_error_no_email_info">與Visa Checkout帳戶關聯的電子郵件地址。</string>
+    <string name="vco_otp_error_otpResetcodeNotmatch">很抱歉，您輸入的代碼與我們發送的代碼不符。請再試一次</string>
+    <string name="vco_otp_error_passcodeInvalid">無效驗證碼</string>
+    <string name="vco_otp_error_signinWithAnotherAccount">&lt;a href="signinasanewuser">或者您可以以其他Visa Checkout帳戶登入&lt;/a></string>
+    <string name="vco_otp_hint_asterisk">*</string>
+    <string name="vco_otp_hint_passCode">密碼</string>
+    <string name="vco_otp_label_checkSpam">檢查您的垃圾郵件資料夾</string>
+    <string name="vco_otp_label_createPassword">建立新密碼</string>
+    <string name="vco_otp_label_createPasswordShowPassword">顯示密碼</string>
+    <string name="vco_otp_label_createPasswordTitle">建立您的新密碼</string>
+    <string name="vco_otp_label_deviceLockedAdviceText">很抱歉，我們暫時無法確認您的代碼。為了保護您，我們已經暫時鎖上您的帳戶。</string>
+    <string name="vco_otp_label_deviceLockedTitle">無法確認重置代碼</string>
+    <string name="vco_otp_label_dontSeeEmailAdvicetext">如果您還沒有收到，請檢查您的電郵地址。您所輸入的地址可能不是與此Visa Checkout帳戶關聯的地址。
+請再嘗試&lt;a href="signin">登入&lt;/a>，或者以&lt;a href="signup">新客戶&lt;/a>身份繼續</string>
+    <string name="vco_otp_label_email">電郵：</string>
+    <string name="vco_otp_label_enterPassword">建立您的新密碼，然後就可繼續檢查購買。</string>
+    <string name="vco_otp_label_enterVerificationCode">輸入驗證碼</string>
+    <string name="vco_otp_label_forgotpasswordDontSeeEmailTitle">如果還沒有看到電子郵件，以下是一些建議：</string>
+    <string name="vco_otp_label_getVerificationCode">獲取驗證碼</string>
+    <string name="vco_otp_label_header">輸入驗證碼</string>
+    <string name="vco_otp_label_loginOtpGetNewCodeAdviceText">我們會發送新的驗證碼到%1$s</string>
+    <string name="vco_otp_label_loginOtpGetNewCodeTitle">取得新的驗證碼</string>
+    <string name="vco_otp_label_not_receive_email"> 沒有收到嗎？</string>
+    <string name="vco_otp_label_otpSent">代碼已發送到%1$s。如果您還沒有收到，請稍等幾分鐘。請按照電子郵件内的指示繼續</string>
+    <string name="vco_otp_label_receive_email">您應該很快就會通過電郵收到代碼。</string>
+    <string name="vco_otp_label_resend">重新發送。</string>
+    <string name="vco_otp_label_resendCode">重新發送代碼</string>
+    <string name="vco_otp_label_sendVerificationCodeInfo">我們將發送驗證碼到您Visa Checkout帳戶關聯的電子郵件地址。</string>
+    <string name="vco_otp_textfieldHint_createPassword">新密碼</string>
+    <string name="vco_pi_accessibility_amexLogo">American Express標誌</string>
+    <string name="vco_pi_accessibility_discoverLogo">Discover標誌</string>
+    <string name="vco_pi_accessibility_eloLogo">Elo標誌</string>
+    <string name="vco_pi_accessibility_mastercardLogo">MasterCard標誌</string>
+    <string name="vco_pi_accessibility_threeDSLogo">您目前在一個三維保安加密頁面</string>
+    <string name="vco_pi_accessibility_visaLogo">Visa標誌</string>
+    <string name="vco_pi_alert_confirmDelete">您確定要刪除以%1$s結尾的卡嗎？</string>
+    <string name="vco_pi_alert_confirmDeleteNocard">您確定要刪除此卡嗎？</string>
+    <string name="vco_pi_alert_deleteSuccess">成功刪除以%1$s結尾的卡</string>
+    <string name="vco_pi_alert_errorCannotAcceptDifferentCard">很抱歉，您的卡號碼暫時無法被接受。請嘗試使用不同的卡。</string>
+    <string name="vco_pi_alert_errorCardAlreadyAdded">很抱歉，您輸入的卡號碼已在您的Visa Checkout帳戶存在。請嘗試使用不同的卡</string>
+    <string name="vco_pi_alert_retryDelete">刪除此卡時似乎出現了問題。您是否要再試一次？</string>
+    <string name="vco_pi_btn_editDone">更新並繼續</string>
+    <string name="vco_pi_cardBrandDetected">卡品牌%1$s已被認可</string>
+    <string name="vco_pi_error_brazilCpfInvalid">CPF無效</string>
+    <string name="vco_pi_error_brazilCpfMissing">輸入CPF</string>
+    <string name="vco_pi_error_cannotAddPayment">卡詳細資料不是全部有效，無法添加地址</string>
+    <string name="vco_pi_error_cardDateExpired">您的卡已過期。請選擇不同的卡</string>
+    <string name="vco_pi_error_cardExpirationDateInvalid">日期無效</string>
+    <string name="vco_pi_error_cardExpirationDateMissing">輸入日期</string>
+    <string name="vco_pi_error_cardInvalid">卡號碼無效</string>
+    <string name="vco_pi_error_cardNicknameEmptyInvalid">暱稱無效</string>
+    <string name="vco_pi_error_cardNumberMissing">輸入卡號碼</string>
+    <string name="vco_pi_error_cardSecCodeInvalid">安全碼無效</string>
+    <string name="vco_pi_error_cardSecCodeMissing">輸入安全碼</string>
+    <string name="vco_pi_error_cardUnsupported">此商家僅支持以上的卡品牌</string>
+    <string name="vco_pi_error_differentAddress">很抱歉，您輸入的一個或以上的項目暫時無效。請嘗試使用不同的地址。</string>
+    <string name="vco_pi_error_differentCard">很抱歉，您的卡號碼暫時無效。請修正或嘗試使用不同的卡。</string>
+    <string name="vco_pi_error_differentCardAndDifferentAddress">很抱歉，您輸入的一個或以上的項目暫時無效。請修正或嘗試使用不同的卡和地址。</string>
+    <string name="vco_pi_error_incorrectDetails">很抱歉，您的付款資料不正確。請再試一次。</string>
+    <string name="vco_pi_error_oneOrMoreDifferentCard">很抱歉，您輸入的一個或以上的項目暫時無效。請修正或嘗試使用不同的卡。</string>
+    <string name="vco_pi_error_unableToAdd">很抱歉，您暫時不可添加卡。請嘗試使用現有卡</string>
+    <string name="vco_pi_hint_cardCvv">安全碼</string>
+    <string name="vco_pi_hint_cardExpiration">將於%1$s/%2$s過期</string>
+    <string name="vco_pi_hint_cardExpirationContentDescription">輸入有效日期</string>
+    <string name="vco_pi_hint_cardNickname">卡暱稱（可選）</string>
+    <string name="vco_pi_hint_cardNumber">卡號碼</string>
+    <string name="vco_pi_hint_secondaryCardCvv">xxx</string>
+    <string name="vco_pi_hint_secondaryCardCvvAmex">xxxx</string>
+    <string name="vco_pi_hint_secondaryCardExpiration">月月/年年</string>
+    <string name="vco_pi_hint_secondaryCardNickname">例：我的點數卡，聯合卡</string>
+    <string name="vco_pi_label_addAddress">添加新地址</string>
+    <string name="vco_pi_label_addCard">添加新卡</string>
+    <string name="vco_pi_label_addpaymentTitle">添加您的卡</string>
+    <string name="vco_pi_label_ba">帳單地址</string>
+    <string name="vco_pi_label_cardBrand">卡品牌%1$s</string>
+    <string name="vco_pi_label_cardEndingIn">以%2$s為結尾的%1$s卡</string>
+    <string name="vco_pi_label_cardPreferred">首選付款卡：</string>
+    <string name="vco_pi_label_cardPreferredMessage">這是您的首選卡</string>
+    <string name="vco_pi_label_cardTypeAmex">印在卡的正面，卡號碼上方的4位數字代碼</string>
+    <string name="vco_pi_label_cardTypeNonAmex">印在卡的背面，簽名欄右方的3位數字代碼</string>
+    <string name="vco_pi_label_editpaymentTitle">編輯您的卡</string>
+    <string name="vco_pi_label_footerTerms">Visa Checkout可能會與發卡金融機構分享有關您如何使用此卡，供有關Visa Checkout的客戶服務、使用分析、防止欺詐和營銷用途使用。</string>
+    <string name="vco_pi_label_learnMore">這是您銀行結單上與此卡相聯的地址。</string>
+    <string name="vco_pi_label_mustAddACard">請添加一張信用卡或借記卡以繼續購買</string>
+    <string name="vco_pi_label_next">下一步：創建您的Visa Checkout帳戶</string>
+    <string name="vco_pi_label_nextBillingAddress">下一步：添加您的帳單地址</string>
+    <string name="vco_pi_textfieldHint_cardExpiration">過期</string>
+    <string name="vco_rc_btn_pay_now">立即付款</string>
+    <string name="vco_rc_btn_purchase">繼續購買</string>
+    <string name="vco_rc_label_amex_credit">我的American Express信用卡</string>
+    <string name="vco_rc_label_change">更改</string>
+    <string name="vco_rc_label_close_vco">您想關閉</string>
+    <string name="vco_rc_label_delivery">運送</string>
+    <string name="vco_rc_label_discover_credit">我的Discover信用卡</string>
+    <string name="vco_rc_label_electron_debit">我的Electron（借記）卡</string>
+    <string name="vco_rc_label_elo_credit">我的Elo信用卡</string>
+    <string name="vco_rc_label_mastercard_credit">我的MasterCard信用卡</string>
+    <string name="vco_rc_label_mastercard_debit">我的MasterCard借記卡</string>
+    <string name="vco_rc_label_not_you">(不是您？）</string>
+    <string name="vco_rc_label_payment_card">我的付款卡</string>
+    <string name="vco_rc_label_visa_credit">我的Visa信用卡</string>
+    <string name="vco_rc_label_visa_debit">我的Visa借記卡</string>
+    <string name="vco_rnc_accesibility_change_address">添加新運送地址、編輯此運送地址或更改至另一個運送地址</string>
+    <string name="vco_rnc_accesibility_change_card">添加新卡、編輯此卡或更改至另一張卡</string>
+    <string name="vco_rnc_accesibility_continue_with_purchase">繼續購買</string>
+    <string name="vco_rnc_accesibility_default_address_content">您將運送到 %1$s, %2$s, %3$s, %4$s</string>
+    <string name="vco_rnc_accesibility_default_card_content">您將以暱稱為%1$s的卡付款，其最後四位數字為%2$s。</string>
+    <string name="vco_rnc_accesibility_manualRcScreenName">%1$s，歡迎回到Visa Checkout。請檢查並確認您的購買資料</string>
+    <string name="vco_rnc_accesibility_not_you_text">不是%1$s嗎？登出Visa Checkout或切換至另一個Visa Checkout帳戶</string>
+    <string name="vco_rnc_accesibility_pay_button_text">您現將%1$s至%2$s</string>
+    <string name="vco_rnc_accessibility_title">檢查付款和運送資料以完成購買</string>
+    <string name="vco_rnc_accessibility_titleDigitalFlow">檢查付款資料以完成購買</string>
+    <string name="vco_rnc_alertMessage_passwordChangeSuccess">您的密碼已成功重置。</string>
+    <string name="vco_rnc_alert_cardPressed">您點擊了卡</string>
+    <string name="vco_rnc_alert_paymentTrayDeleteCard">刪除此卡</string>
+    <string name="vco_rnc_alert_paymentTrayEditCard">編輯此卡</string>
+    <string name="vco_rnc_alert_threeDSFailCardMessage">您的金融機構無法認證此卡</string>
+    <string name="vco_rnc_alert_threeDSFailPageMessage">很抱歉，您的金融機構無法認證您的卡。為了安全起見，請使用其他卡。</string>
+    <string name="vco_rnc_error_merchant_ship_msg">這個商戶不運送至%1$s</string>
+    <string name="vco_rnc_hint_digitalCheckout">您將會回到%1$s</string>
+    <string name="vco_rnc_label_cardDetails">卡詳細資料</string>
+    <string name="vco_rnc_label_cardExpired">卡已過期。</string>
+    <string name="vco_rnc_label_cardNotSupported">這個商戶不接受%1$s</string>
+    <string name="vco_rnc_label_lastFourDigitsOfCard_no_nickname">%1$s x-%2$s</string>
+    <string name="vco_rnc_label_lastFourDigitsOfCard_with_nickname">(x-%1$s)</string>
+    <string name="vco_rnc_label_merchantDoesNotAccept">這個商戶不接受此卡</string>
+    <string name="vco_rnc_label_merchantLogoPressed">您點擊了商家標記</string>
+    <string name="vco_rnc_label_merchantName">繼續到%1$s以完成購買</string>
+    <string name="vco_rnc_label_merchantNameAddCard">繼續添加您的卡至%1$s</string>
+    <string name="vco_rnc_label_merchantNotSupportBillingAddress">這個商戶不接受位於%1$s的帳單地址</string>
+    <string name="vco_rnc_label_missingInfo">您需要額外資料才能使用這張卡</string>
+    <string name="vco_rnc_label_payWith">以以下卡付款：</string>
+    <string name="vco_rnc_label_selectCard">選擇卡</string>
+    <string name="vco_rnc_label_shipTo">運送到：</string>
+    <string name="vco_rnc_label_threeDSSecureMessageMc">此卡已登記在MasterCard® SecureCode™。為了保護您，您的金融機構要求您認證交易才可繼續。</string>
+    <string name="vco_rnc_label_threeDSSecureMessageVisa">此卡已登記在Verified by Visa。為了保護您，您的金融機構要求您提供消費者認證密碼才可繼續。</string>
+    <string name="vco_rnc_label_total">總共：</string>
+    <string name="vco_signin_accesibility_cancel_vco">取消使用Visa Checkout並返回%1$s</string>
+    <string name="vco_signin_accesibility_manualSigninScreenTitle">%1$s，歡迎回到Visa Checkout</string>
+    <string name="vco_signin_accesibility_use_password">改以使用您的Visa Checkout密碼登入</string>
+    <string name="vco_signin_accesibility_wrongPasswordEntered">您輸入了錯誤的密碼。請再試一次</string>
+    <string name="vco_signin_accessibility_username">用戶名</string>
+    <string name="vco_signin_alertTitle_accountLocked">帳戶被鎖上</string>
+    <string name="vco_signin_btn_signIn">登入</string>
+    <string name="vco_signin_error_usernameInvalid">用戶名無效</string>
+    <string name="vco_signin_error_usernameRequired">輸入用戶名</string>
+    <string name="vco_signin_hint_password">密碼</string>
+    <string name="vco_signin_label_enableFingerPrint">啟用指紋</string>
+    <string name="vco_signin_label_rememberMe">記住我</string>
+    <string name="vco_signin_label_signIn">以其他Visa Checkout帳戶</string>
+    <string name="vco_signin_label_signInForgotPasswordContentDescription">忘記密碼？link</string>
+    <string name="vco_signin_label_signInModalDesc">為了您的安全，請登入您的Visa Checkout帳戶以繼續。</string>
+    <string name="vco_signin_label_signInTitleSignIn">登入Visa Checkout</string>
+    <string name="vco_signin_label_signInToContinue">請登入以繼續</string>
+    <string name="vco_signin_label_updateTcAgreePrefix">我們已更新使用條例與條件。</string>
+    <string name="vco_signin_label_updateTcAgreeSuffix">請點擊「同意並繼續」以同意Visa Checkout &lt;a href="terms">的服務條例&lt;/a> 和 &lt;a href="privacy"> 隱私政策 &lt;/a>至 再繼續</string>
+    <string name="vco_signup_alert_learnMore">確定帳單將會發送到您的電郵地址。</string>
+    <string name="vco_signup_btn_signUpContinue">以新客戶身份繼續</string>
+    <string name="vco_signup_error_emailInvalid">電郵地址無效</string>
+    <string name="vco_signup_error_emailRequired">輸入電子郵件地址</string>
+    <string name="vco_signup_error_firstName">輸入您的名字</string>
+    <string name="vco_signup_error_invalidCharactersLastName">您輸入了無效字符。請再次輸入您的名字。</string>
+    <string name="vco_signup_error_lastName">輸入您的姓氏</string>
+    <string name="vco_signup_error_lname_invalid_chars">您輸入了無效字符。請再次輸入您的姓氏。</string>
+    <string name="vco_signup_hint_signUpFirstName">名字</string>
+    <string name="vco_signup_hint_signUpLastName">姓氏</string>
+    <string name="vco_signup_label_signUpAlreadyHaveAccount">已經有Visa Checkout帳戶？</string>
+    <string name="vco_signup_label_signUpContentDescription">繼續到登入。Link</string>
+    <string name="vco_signup_label_signUpInfo">沒問題，您仍然可以結帳。結帳時，您會被要求創建帳戶</string>
+    <string name="vco_signup_label_signUpSignIn">登入</string>
+    <string name="vco_signup_label_signUpTitle">第一次使用Visa Checkout嗎？</string>
+    <string name="vco_signup_label_useCookies">Visa Checkout使用Cookie及類似技術。使用Visa Checkout，即同意我們的&lt;a href="cookies">Cookie使用&lt;/a>。</string>
+    <string name="vco_stepup_alertMessage_accountLocked">為了保護您和防止未經授權的訪問，我們暫時鎖上您的帳戶。請聯繫客戶支援或稍候再試。</string>
+    <string name="vco_stepup_label_answerListItem">答案</string>
+    <string name="vco_touchid_alertMessage_androidTouchidEnable">Android Fingerprint驗證可以讓您更快更輕鬆地登入Visa Checkout。您要在本應用程式内啟用此功能嗎？</string>
+    <string name="vco_touchid_alertTitle_fingerprint">Fingerprint</string>
+    <string name="vco_touchid_alertTitle_samsungPass">Samsung Pass</string>
+    <string name="vco_touchid_alert_samsungPassEnable">Samsung Pass可以讓您更快更輕鬆地登入Visa Checkout。您要在本應用程式内啟用此功能嗎？</string>
+    <string name="vco_wc_accesibility_enter_email_address">您輸入的電子郵件地址無效。請再試一次</string>
+    <string name="vco_wc_accesibility_more_information">需要更多資訊嗎？</string>
+    <string name="vco_wc_accesibility_screenTitle">歡迎使用Visa Checkout。</string>
+    <string name="vco_wc_enter_email">如欲開始使用，請輸入您的電郵地址。</string>
+    <string name="vco_wc_label_cookie_policy">Cookie政策</string>
+    <string name="vco_wc_label_email_info">商戶可能要用您的電郵地址，就訂單聯絡您。</string>
+    <string name="vco_wc_label_header">開始使用快捷安全的網上付款方式</string>
+    <string name="vco_we_accesibility_screen_title">您選擇的錢包無法使用</string>
+    <string name="vco_we_button_use_vco">使用Visa Checkout</string>
+    <string name="vco_we_error_wallet_unavailable">很抱歉，%1$s出現錯誤。請登入您的Visa Checkout帳戶以繼續。</string>
+    <string name="vco_we_header_wallet_unavailable">%1$s無法使用</string>
+    <string name="vco_ws_accesibility_screen_title">選擇您的錢包以繼續</string>
+    <string name="vco_ws_label_select_wallet">選擇一個錢包</string>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"透過 Google 購物"</string>
+</resources>

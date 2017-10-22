@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    }
+]

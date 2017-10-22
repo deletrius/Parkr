@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/vco_color_white"
+    android:orientation="vertical">
+
+  <FrameLayout
+      android:id="@+id/vco_exo_devicelock_fl_container"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/vco_exo_devicelock_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="22dp"
+          android:layout_marginRight="22dp"
+          android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tv_could_not_confirm_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.5dp"
+            android:gravity="center_horizontal"
+            android:importantForAccessibility="no"
+            android:text="@string/vco_signin_alertTitle_accountLocked"
+            app:font="@string/font_open_sans_regular"
+            style="@style/text.Xlarge.midblue"/>
+
+        <TextView
+            android:id="@+id/com_visa_checkout_tv_device_locked_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/vco_exo_otp_device_locked_info"
+            app:font="@string/font_open_sans_regular"
+            style="@style/text.medium.midblue"/>
+      </LinearLayout>
+
+
+      <RelativeLayout
+          android:id="@+id/vco_exo_devicelock_rl_btn"
+          android:layout_width="match_parent"
+          android:layout_height="80dp">
+
+        <com.visa.checkout.widget.VisaButton
+            android:id="@+id/com_exo_visa_checkout_bt_close"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/vco_common_accesibility_closeButton"
+            android:text="@string/vco_exo_close_btn"
+            android:textAllCaps="true"
+            android:textColor="@color/vco_color_white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:font="@string/font_open_sans_bold"
+            style="@style/btn.primary"/>
+
+      </RelativeLayout>
+    </LinearLayout>
+    <com.visa.checkout.widget.ExpandableHeader
+        android:id="@+id/vco_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/vco_color_midnight_blue"/>
+
+  </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/address_suggestion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/com_visa_checkout_forty_px"
+    android:background="@color/com_visa_checkout_layout_background"
+    android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/com_visa_checkout_tv_address_suggestion_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/com_visa_checkout_thirty_px"
+      android:paddingLeft="@dimen/com_visa_checkout_sixty_px"
+      android:paddingRight="@dimen/com_visa_checkout_sixty_px"
+      android:textColor="@color/com_visa_checkout_tv_info_label_color"
+      android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"/>
+
+  <TextView
+      android:id="@+id/com_visa_checkout_tv_address_suggestion_line1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/com_visa_checkout_twenty_px"
+      android:paddingLeft="@dimen/com_visa_checkout_sixty_px"
+      android:paddingRight="@dimen/com_visa_checkout_sixty_px"
+      android:textColor="@color/com_visa_checkout_tv_info_label_color"
+      android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"/>
+
+  <TextView
+      android:id="@+id/com_visa_checkout_tv_address_suggestion_line2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/com_visa_checkout_twenty_px"
+      android:paddingLeft="@dimen/com_visa_checkout_sixty_px"
+      android:paddingRight="@dimen/com_visa_checkout_sixty_px"
+      android:textColor="@color/com_visa_checkout_tv_info_label_color"
+      android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"
+      android:visibility="gone"/>
+
+  <TextView
+      android:id="@+id/com_visa_checkout_tv_address_suggestion_line3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/com_visa_checkout_twenty_px"
+      android:paddingLeft="@dimen/com_visa_checkout_sixty_px"
+      android:paddingRight="@dimen/com_visa_checkout_sixty_px"
+      android:textColor="@color/com_visa_checkout_tv_info_label_color"
+      android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"
+      android:visibility="gone"/>
+
+  <TextView
+      android:id="@+id/com_visa_checkout_tv_address_suggestion_citystatezip"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/com_visa_checkout_twenty_px"
+      android:paddingLeft="@dimen/com_visa_checkout_sixty_px"
+      android:paddingRight="@dimen/com_visa_checkout_sixty_px"
+      android:textColor="@color/com_visa_checkout_tv_info_label_color"
+      android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"/>
+
+
+  <RelativeLayout
+      android:id="@+id/vco_suggestion_btn"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="@dimen/com_visa_checkout_sixty_px">
+    <com.visa.checkout.widget.VisaButton
+        android:id="@+id/com_visa_checkout_bt_address_suggestion_usethis"
+        android:text="@string/vco_common_btn_addressSuggestionUseThis"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:font="@string/font_open_sans_bold"
+        style="@style/btn.primary"/>
+
+    <com.visa.checkout.widget.progressbar.CircularLayout
+        android:id="@+id/vco_circularLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <com.visa.checkout.widget.progressbar.VCOProgressSpinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+  </RelativeLayout>
+
+</LinearLayout>

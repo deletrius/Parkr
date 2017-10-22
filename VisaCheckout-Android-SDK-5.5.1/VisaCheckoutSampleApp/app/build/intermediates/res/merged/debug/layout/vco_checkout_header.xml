@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/vco_header_rootLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/vco_color_midnight_blue">
+
+    <include
+        layout="@layout/vco_sandbox_watermark"
+        android:id="@+id/com_visa_checkout_sandbox_watermark_layout"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/vco_header_left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/com_visa_checkout_sandbox_watermark_layout"
+        android:background="@color/vco_color_transparent"
+        android:contentDescription="@string/vco_accessibility_back_button"
+        android:padding="20dp"
+        android:src="@drawable/com_visa_checkout_img_back"/>
+
+    <ImageButton
+        android:id="@+id/vco_header_right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/com_visa_checkout_sandbox_watermark_layout"
+        android:background="@color/vco_color_transparent"
+        android:padding="20dp"
+        android:contentDescription="@string/vco_common_accesibility_closeButton"
+        android:src="@drawable/vco_close_btn"/>
+
+    <RelativeLayout
+        android:id="@+id/vco_close_logo_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+      <ImageView
+          android:id="@+id/vco_close_iv_logo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:contentDescription="@string/vco_common_accesibility_vco_logo"
+          android:src="@drawable/vxo_logo"/>
+      <TextView
+          android:id="@+id/vco_dynamic_header_text"
+          android:layout_alignBottom="@+id/vco_close_iv_logo"
+          android:layout_alignLeft="@+id/vco_close_iv_logo"
+          android:layout_alignRight="@+id/vco_close_iv_logo"
+          android:layout_alignTop="@+id/vco_close_iv_logo"
+          android:visibility="gone"
+          android:gravity="center"
+          style="@style/header.large.white"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/vco_close_tv_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vco_close_logo_container"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/vco_common_accesibility_closeButton"
+        android:paddingBottom="10dp"
+        android:text="@string/vco_rc_label_close_vco"
+        android:textSize="20sp"
+        android:visibility="gone"
+        style="@style/text.very.large.white"/>
+
+    <View
+        android:id="@+id/vco_close_view_line"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/vco_close_logo_container"
+        android:layout_alignRight="@+id/vco_close_logo_container"
+        android:layout_below="@+id/vco_close_logo_container"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="23.3dp"
+        android:background="@color/vco_color_manatee"
+        android:minWidth="150dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/vco_close_btn_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vco_close_logo_container"
+        android:layout_below="@+id/vco_close_view_line"
+        android:background="@color/vco_color_transparent"
+        android:contentDescription="@string/vco_closeOverlay_accesibility_yes_button"
+        android:paddingBottom="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/vco_common_btn_yes"
+        android:textAllCaps="true"
+        android:textSize="16.0sp"
+        android:visibility="gone"
+        style="@style/btn.large.primary"/>
+
+    <Button
+        android:id="@+id/vco_close_btn_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/vco_close_logo_container"
+        android:layout_below="@+id/vco_close_view_line"
+        android:background="@color/vco_color_transparent"
+        android:contentDescription="@string/vco_closeOverlay_accesibility_no_button"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp"
+        android:text="@string/vco_common_btn_no"
+        android:textAllCaps="true"
+        android:textSize="16.0sp"
+        android:visibility="gone"
+        style="@style/btn.large.primary"/>
+
+    <View
+        android:id="@+id/com_visa_checkout_v_gold_streamer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_visa_checkout_header_gold_streamer_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/com_visa_checkout_gold_streamer"/>
+
+    <LinearLayout
+        android:id="@+id/com_visa_checkout_ll_progress_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_visa_checkout_spb_height"
+        android:layout_alignBottom="@id/com_visa_checkout_v_gold_streamer"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+      <com.visa.checkout.widget.progressbar.SmoothProgressBar
+          android:id="@+id/com_visa_checkout_pb_drawable"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:indeterminate="true"
+          style="@style/com_visa_checkout_VisaProgressBar"/>
+    </LinearLayout>
+
+  </RelativeLayout>
+
+</merge>

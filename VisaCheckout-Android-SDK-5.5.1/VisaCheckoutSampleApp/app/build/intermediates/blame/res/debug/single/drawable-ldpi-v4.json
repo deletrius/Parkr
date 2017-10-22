@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_vco_create_account_active_checked.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/com_vco_create_account_active_checked.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vco_blue_icon.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/vco_blue_icon.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_inline_error_icon.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/ic_inline_error_icon.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vco_white_icon.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/vco_white_icon.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/logo_purple.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/logo_purple.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/confirmation_icon.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/confirmation_icon.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_vco_create_account_disable_uncheck.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/com_vco_create_account_disable_uncheck.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/logo_visa.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/logo_visa.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vco_card_dots_non_amex.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/vco_card_dots_non_amex.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_vco_exo_manual_checkbox_grey.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/com_vco_exo_manual_checkbox_grey.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vco_card_dots_amex.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/vco_card_dots_amex.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_vco_exo_manual_checkbox_off.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/com_vco_exo_manual_checkbox_off.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_visa_checkout_icon_learn_more.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/com_visa_checkout_icon_learn_more.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vco_lock_ic.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/vco_lock_ic.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vco_close_btn.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/vco_close_btn.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/logo_blue.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/logo_blue.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_vco_exo_manual_checkbox_on.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/com_vco_exo_manual_checkbox_on.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/logo_green.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/logo_green.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_visa_checkout_img_back_arrow.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/com_visa_checkout_img_back_arrow.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_vco_create_account_active_unchecked.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/com_vco_create_account_active_unchecked.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/com_vco_create_account_disable_checked.png",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-ldpi-v4/com_vco_create_account_disable_checked.png"
+    }
+]

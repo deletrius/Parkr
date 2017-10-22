@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+  <RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/vco_view_rootLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+    <View
+        android:id="@+id/vco_view"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="@color/vco_color_true_blue"/>
+    <View
+        android:id="@+id/vco_view1"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="@color/com_visa_checkout_address_suggestion_changed"/>
+    <View
+        android:id="@+id/vco_view2"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="@color/vco_color_lavender_gray">
+    </View>
+  </RelativeLayout>
+</merge>

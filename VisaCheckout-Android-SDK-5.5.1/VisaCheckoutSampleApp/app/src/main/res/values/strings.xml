@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parkr</string>
+    <string name="bt_edit_visa_payment_text">Edit Payment</string>
+    <string name="bt_relaunch_visa_payment_text">Relaunch Payment</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="num_cars">
+        <item>954-ZDX</item>
+        <item>829-UHY</item>
+    </string-array>
+    <string name="num_cars_prompt">How many vehicles?</string>
+</resources>

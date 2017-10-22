@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_dashboard_black_24dp.png",
+        "source": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_notifications_black_24dp.png",
+        "source": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_home_black_24dp.png",
+        "source": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_home_black_24dp.png"
+    }
+]

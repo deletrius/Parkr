@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6e42ce6b6444b620ae977c25d37ab7db92d2bf37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b4cf9f2dd87700ab1207d992899069dbf1b291e">
+        <dex dex="/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c0e5001697ab08a9148b3267b66fd5f1d606e364/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7399647754dfe1ac9dea70ff818f917c057863df">
+        <dex dex="/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a5b9cf8851b2f0cfb0002d2cd8c6ff940e0fa236/classes.dex" />
+    </item>
+
+</items>

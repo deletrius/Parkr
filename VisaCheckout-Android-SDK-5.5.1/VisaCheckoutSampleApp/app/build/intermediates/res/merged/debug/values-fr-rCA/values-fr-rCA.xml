@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="com_visa_checkout_funding_option">
+    <item>Crédit</item>
+    <item>Electron (débit)</item>
+    <item>Sélectionnez une option de financement</item>
+  </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Plus d\'options"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Terminé"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Voir toutes les chaînes"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Sélectionnez une application"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DÉSACTIVÉ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVÉ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Recherche en cours..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partager"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partager avec %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string msgid="4778414446709286370" name="cast_ad_label">"Annonce"</string>
+    <string msgid="366047012176970604" name="cast_casting_to_device">"Diffusion vers %1$s"</string>
+    <string msgid="2888745622334830481" name="cast_closed_captions">"Sous-titres"</string>
+    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"Aucun sous-titre"</string>
+    <string msgid="4431992200264667209" name="cast_disconnect">"Déconnexion"</string>
+    <string msgid="5668979866539349222" name="cast_expanded_controller_ad_image_description">"Image affichée alors que le récepteur de diffusion présente une annonce"</string>
+    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"Annonce en cours…"</string>
+    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"Image de l\'album"</string>
+    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"Diffusion en direct"</string>
+    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"Chargement en cours…"</string>
+    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"Ignorer"</string>
+    <string msgid="7884080323096468593" name="cast_forward">"Suivant"</string>
+    <string msgid="6424889955881797947" name="cast_forward_10">"Avancer de 10 secondes"</string>
+    <string msgid="7868672855975238403" name="cast_forward_30">"Avancer de 30 secondes"</string>
+    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
+    <string msgid="5637297909372905371" name="cast_mute">"Désactiver le son"</string>
+    <string msgid="5319032370587661362" name="cast_notification_connected_message">"Connecté à <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"Connexion à <ns1:g id="NAME">%1$s</ns1:g> en cours…"</string>
+    <string msgid="5232008641593292969" name="cast_notification_disconnect">"Déconnexion"</string>
+    <string msgid="5308503786390460607" name="cast_pause">"Interrompre"</string>
+    <string msgid="5906987965619702702" name="cast_play">"Lecture"</string>
+    <string msgid="1739665135565985480" name="cast_rewind">"Reculer"</string>
+    <string msgid="6432793028560778843" name="cast_rewind_10">"Reculer 10 secondes"</string>
+    <string msgid="4677199707225681325" name="cast_rewind_30">"Reculer 30 secondes"</string>
+    <string msgid="9078075166993780241" name="cast_seek_bar">"Barre de défilement"</string>
+    <string msgid="3991548379225047363" name="cast_skip_next">"Aller à l\'élément suivant"</string>
+    <string msgid="8369073097776576935" name="cast_skip_prev">"Aller à l\'élément précédent"</string>
+    <string msgid="9191388946729723891" name="cast_stop">"Arrêter"</string>
+    <string msgid="1219622777438777099" name="cast_stop_live_stream">"Arrêter la diffusion en direct"</string>
+    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"Audio"</string>
+    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"Annuler"</string>
+    <string msgid="1779359505126875127" name="cast_tracks_chooser_dialog_closed_captions">"Sous-titres"</string>
+    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"Suivre <ns1:g id="POSITION">%1$d</ns1:g>"</string>
+    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Aucune"</string>
+    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"OK"</string>
+    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"Sous-titres"</string>
+    <string msgid="2913461521603516868" name="cast_unmute">"Réactiver le son"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Activer"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Activer les services Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installer"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Installer les services Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erreur liée aux services Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"L\'application <ns1:g id="APP_NAME">%1$s</ns1:g> éprouve un problème avec les services Google Play. Veuillez réessayer."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"L\'application <ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui ne sont pas pris en charge par votre appareil."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Mettre à jour"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Mettre à jour les services Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui sont actuellement mis à jour."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Connexion"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <string msgid="3698378085901466129" name="mr_button_content_description">"Bouton Diffuser"</string>
+    <string msgid="5088427771788648085" name="mr_cast_button_connected">"Bouton Diffuser. Connecté"</string>
+    <string msgid="2187642765091873834" name="mr_cast_button_connecting">"Bouton Diffuser. Connexion en cours…"</string>
+    <string msgid="816305490427819240" name="mr_cast_button_disconnected">"Bouton Diffuser. Déconnecté"</string>
+    <string msgid="6349900579507521956" name="mr_chooser_searching">"Recherche d\'appareils"</string>
+    <string msgid="414301941546135990" name="mr_chooser_title">"Diffuser sur"</string>
+    <string msgid="6422801843540543585" name="mr_controller_album_art">"Image de l\'album"</string>
+    <string msgid="4868457957151124867" name="mr_controller_casting_screen">"Diffusion de l\'écran en cours"</string>
+    <string msgid="7333862312480583260" name="mr_controller_close_description">"Fermer"</string>
+    <string msgid="7924809056904240926" name="mr_controller_collapse_group">"Réduire"</string>
+    <string msgid="1227264889412989580" name="mr_controller_disconnect">"Se déconnecter"</string>
+    <string msgid="8062427022744266907" name="mr_controller_expand_group">"Développer"</string>
+    <string msgid="5585418471741142924" name="mr_controller_no_info_available">"Aucune information disponible"</string>
+    <string msgid="6547130360349182381" name="mr_controller_no_media_selected">"Aucun média sélectionné"</string>
+    <string msgid="5451884435510905406" name="mr_controller_pause">"Interrompre"</string>
+    <string msgid="683634565969987458" name="mr_controller_play">"Lire"</string>
+    <string msgid="4570331844078181931" name="mr_controller_stop">"Arrêter la diffusion"</string>
+    <string msgid="2361785992211841709" name="mr_controller_volume_slider">"Curseur de réglage du volume"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Système"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Appareils"</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Effacer la recherche"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Rechercher"</string>
+    <string msgid="368094699078615544" name="s1">"Enregistrer l\'image"</string>
+    <string msgid="4550830452390689489" name="s2">"Autoriser l\'annonce à stocker l\'image dans la galerie d\'images?"</string>
+    <string msgid="2435407834265420668" name="s3">"Accepter"</string>
+    <string msgid="9167523597401839819" name="s4">"Refuser"</string>
+    <string msgid="1566682516266724847" name="s5">"Créer un événement dans l\'agenda"</string>
+    <string msgid="5996672174517137271" name="s6">"Autoriser l\'annonce à créer un événement dans l\'agenda?"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Rechercher"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="vco_accessibility_back_button">Revenir à l\'écran précédent</string>
+    <string name="vco_accessibility_confirm_code">Confirmez votre code</string>
+    <string name="vco_accessibility_createPasswordShowPassword">Affiche le mot de passe que vous avez saisi</string>
+    <string name="vco_accessibility_createPasswordTitle">Créez un nouveau mot de passe d\'au moins six caractères</string>
+    <string name="vco_accessibility_error_passcodeInvalid">Le code que vous avez saisi n\'est pas valide. Veuillez réessayer</string>
+    <string name="vco_accessibility_fingerprint_checkbox_off">L\'identification par empreinte digitale est désactivée. Touchez pour l\'activer</string>
+    <string name="vco_accessibility_fingerprint_checkbox_on">L\'identification par empreinte digitale est activée. Touchez pour la désactiver</string>
+    <string name="vco_accessibility_hint_passCode">Saisissez votre mot de passe</string>
+    <string name="vco_accessibility_label_confirmidentity">Assurons-nous que c\'est vous</string>
+    <string name="vco_accessibility_label_entercode">Entrez votre code de vérification</string>
+    <string name="vco_accessibility_label_newVerificationCodeInfo">Vous avez atteint le nombre maximal de tentatives pour le code de vérification actuel. Nous allons envoyer un nouveau code à %1$s pour vous permettre de confirmer votre identité.</string>
+    <string name="vco_accessibility_label_receive_email">Vous ne devriez pas tarder à recevoir le code par courriel. Vous n\'avez pas reçu de courriel? Touchez Renvoyer pour obtenir un nouveau code.</string>
+    <string name="vco_accessibility_label_sendVerificationCodeInfo">Un code sera envoyé à votre adresse courriel %1$s. Utilisez le code pour vérifier votre compte.</string>
+    <string name="vco_accessibility_label_send_newcode">Envoyer un nouveau code</string>
+    <string name="vco_accessibility_label_sendsCode">Envoyer code</string>
+    <string name="vco_accessibility_rememberme_checkbox_off">L\'option Se souvenir de moi est désactivée. Appuyez pour l\'activer</string>
+    <string name="vco_accessibility_rememberme_checkbox_on">L\'option Se souvenir de moi est activée. Appuyez pour la désactiver</string>
+    <string name="vco_accessibility_sendVerificationCodeInformation">Pour garantir la sécurité de votre compte, nous allons envoyer un code de vérification à %1$s. Veuillez utiliser ce code pour confirmer votre identité.</string>
+    <string name="vco_addAddress_btn_continue">Continuer</string>
+    <string name="vco_addAddress_error_brazilAddAddressComplimentInvalidError">"Complément d'adresse invalide"</string>
+    <string name="vco_addAddress_error_brazilAddAddressPointOfRefInvalidError">Point de repère invalide</string>
+    <string name="vco_addAddress_error_brazilAddAddressStreetNumInvalidError">Numéro civique invalide</string>
+    <string name="vco_addAddress_error_cityInvalidError">Ville invalide</string>
+    <string name="vco_addAddress_error_cityRequired">Saisissez votre ville</string>
+    <string name="vco_addAddress_error_contacts_launch">"Cette application n'a pas les autorisations nécessaires pour accéder à votre carnet d'adresses."</string>
+    <string name="vco_addAddress_error_gps_launch">"Cette application n'a pas les autorisations nécessaires pour accéder à l'emplacement de votre appareil."</string>
+    <string name="vco_addAddress_error_invalidAddress">Veuillez saisir une adresse valide.</string>
+    <string name="vco_addAddress_error_landmarkInvalid">Point de repère invalide</string>
+    <string name="vco_addAddress_error_landmarkRequired">Saisissez le point de repère</string>
+    <string name="vco_addAddress_error_line3InvalidNz">Banlieue invalide</string>
+    <string name="vco_addAddress_error_line3RequiredNz">Saisissez une banlieue</string>
+    <string name="vco_addAddress_error_lineInvalid">Adresse invalide</string>
+    <string name="vco_addAddress_error_notAvailable">Indisponible</string>
+    <string name="vco_addAddress_error_phoneInvalid">Numéro de téléphone invalide</string>
+    <string name="vco_addAddress_error_phoneRequired">Saisissez votre numéro de téléphone</string>
+    <string name="vco_addAddress_error_required">Saisissez l\'adresse</string>
+    <string name="vco_addAddress_error_stateInvalid">État invalide</string>
+    <string name="vco_addAddress_error_stateRequired">Saisissez votre province</string>
+    <string name="vco_addAddress_error_streetInvalid">Rue invalide</string>
+    <string name="vco_addAddress_error_streetNumRequired">Saisissez un numéro civique</string>
+    <string name="vco_addAddress_error_streetRequired">Saisissez la rue</string>
+    <string name="vco_addAddress_error_zipInvalid">Code postal invalide</string>
+    <string name="vco_addAddress_error_zipInvalidAu">Code postal invalide</string>
+    <string name="vco_addAddress_error_zipInvalidCa">Code postal invalide</string>
+    <string name="vco_addAddress_error_zipRequired">Saisissez votre code postal</string>
+    <string name="vco_addAddress_error_zipRequiredAu">Saisissez le code postal</string>
+    <string name="vco_addAddress_error_zipRequiredBr">Saisissez un CEP</string>
+    <string name="vco_addAddress_error_zipRequiredCa">Saisissez le code postal</string>
+    <string name="vco_addAddress_hint_addressline">Adresse</string>
+    <string name="vco_addAddress_hint_addressline1">Adresse ligne 1</string>
+    <string name="vco_addAddress_hint_addressline2">Adresse ligne 2</string>
+    <string name="vco_addAddress_hint_addressline2Optional">Adresse ligne 2 (optionnel)</string>
+    <string name="vco_addAddress_hint_addressline3">Adresse ligne 3</string>
+    <string name="vco_addAddress_hint_addressline3Nz">Banlieue (optionnel)</string>
+    <string name="vco_addAddress_hint_cep">CEP</string>
+    <string name="vco_addAddress_hint_city">Ville</string>
+    <string name="vco_addAddress_hint_cityTown">Ville</string>
+    <string name="vco_addAddress_hint_complement">"Complément d'adresse (optionnel)"</string>
+    <string name="vco_addAddress_hint_landmark">Point de repère</string>
+    <string name="vco_addAddress_hint_name">Nom (prénom et nom de famille)</string>
+    <string name="vco_addAddress_hint_neighborhood">Quartier</string>
+    <string name="vco_addAddress_hint_number">Numéro</string>
+    <string name="vco_addAddress_hint_phoneNumber">Numéro de téléphone</string>
+    <string name="vco_addAddress_hint_pincode">NIP</string>
+    <string name="vco_addAddress_hint_pointOfReference">Point de repère (optionnel)</string>
+    <string name="vco_addAddress_hint_postCode">Code postal</string>
+    <string name="vco_addAddress_hint_postCodeOptionalTitle">Code postal</string>
+    <string name="vco_addAddress_hint_postalCode">Code postal</string>
+    <string name="vco_addAddress_hint_state">État</string>
+    <string name="vco_addAddress_hint_stateCa">Province</string>
+    <string name="vco_addAddress_hint_stateProvince">État/Province</string>
+    <string name="vco_addAddress_hint_street">Rue</string>
+    <string name="vco_addAddress_hint_zip">Code postal</string>
+    <string name="vco_addAddress_label_addAddressTitle">Ajoutez votre adresse de livraison</string>
+    <string name="vco_addAddress_label_addressCarousel">Carrousel d\u0027adresses; glissez à gauche ou à droite pour sélectionner une adresse différente. Allez tout à droite afin d\u0027ajouter une nouvelle adresse.</string>
+    <string name="vco_addAddress_label_addressSuggestionRecommended">Adresse recommandée :</string>
+    <string name="vco_addAddress_label_addressSuggestionVerify">Veuillez vérifier votre adresse.</string>
+    <string name="vco_addAddress_label_addressSuggestionYouEntered">Adresse saisie :</string>
+    <string name="vco_addAddress_label_billingTitle">Ajoutez votre adresse de facturation</string>
+    <string name="vco_addAddress_label_cardCarousel">Carrousel de cartes; glissez à gauche ou à droite pour sélectionner une carte différente. Allez tout à droite afin d\u0027ajouter une nouvelle carte.</string>
+    <string name="vco_addAddress_label_couldntVerify">"Nous n'avons pas pu vérifier cette adresse auprès du service des postes. Voulez-vous l'enregistrer quand même?"</string>
+    <string name="vco_addAddress_label_deleteCard">Effacer cette adresse</string>
+    <string name="vco_addAddress_label_editAddressTitle">Modifier l’adresse</string>
+    <string name="vco_addAddress_label_editCard">Modifier cette adresse</string>
+    <string name="vco_addAddress_label_nextShipping">Ensuite : vous allez ajouter votre carte.</string>
+    <string name="vco_addAddress_label_preferred">Adresse de livraison préférée</string>
+    <string name="vco_addAddress_label_preferredContentDescription">Mon adresse de livraison préférée</string>
+    <string name="vco_addAddress_label_preferredMessage">Ceci est votre adresse de livraison préférée</string>
+    <string name="vco_addAddress_label_showAddressLine2">"Afficher l'adresse ligne 2"</string>
+    <string name="vco_addAddress_townCity">Ville</string>
+    <string name="vco_addaddress_house_aptnumber">"Numéro de maison/d'appartement"</string>
+    <string name="vco_addaddress_house_invalid_error">"Numéro de maison/d'appartement invalide"</string>
+    <string name="vco_addaddress_house_required_error">"Saisissez le numéro de maison/d'appartement"</string>
+    <string name="vco_address_accessibility_addressSuggestion">Adresse suggérée</string>
+    <string name="vco_address_alert_deleteSuccess">Adresse supprimée avec succès</string>
+    <string name="vco_address_error_colony_invalid">Colonie invalide</string>
+    <string name="vco_address_error_colony_required">Entrez la colonie</string>
+    <string name="vco_address_error_county_or_municipality_invalid">Comté ou municipalité invalide</string>
+    <string name="vco_address_error_county_or_municipality_required">Entrez le comté ou la municipalité</string>
+    <string name="vco_address_error_exterior_no_invalid">Numéro extérieur invalide</string>
+    <string name="vco_address_error_exterior_no_required">Entrez le numéro extérieur</string>
+    <string name="vco_address_error_interior_no_invalid">Numéro intérieur invalide</string>
+    <string name="vco_address_error_locality_invalid">Ville ou province invalide</string>
+    <string name="vco_address_error_locality_required">Saisir la ville ou la province</string>
+    <string name="vco_address_error_region_invalid">Région invalide</string>
+    <string name="vco_address_error_region_required">Saisir la région</string>
+    <string name="vco_address_hint_address_line3">Adresse ligne 3 (optionnel)</string>
+    <string name="vco_address_hint_locality_state">Ville/Province</string>
+    <string name="vco_address_hint_postal_code_optional">Code postal (optionnel)</string>
+    <string name="vco_address_hint_region">Région</string>
+    <string name="vco_address_label_colony">Colonie</string>
+    <string name="vco_address_label_county">Comté</string>
+    <string name="vco_address_label_county_or_municipality">Comté ou municipalité</string>
+    <string name="vco_address_label_district">Quartier</string>
+    <string name="vco_address_label_district_invalid_error">Quartier invalide</string>
+    <string name="vco_address_label_district_required_error">Entrez le quartier</string>
+    <string name="vco_address_label_exterior_no">Numéro extérieur</string>
+    <string name="vco_address_label_interior_no">Numéro intérieur (optionnel)</string>
+    <string name="vco_address_session_about_to_expire">Votre session est sur le point d\’expirer. Veuillez toucher l\'écran afin de poursuivre avec Visa Checkout</string>
+    <string name="vco_alertMessage_oneOrMoreError">Au moins une entrée comporte une erreur.</string>
+    <string name="vco_back_button">Aller à l\'écran précédent</string>
+    <string name="vco_closeOverlay_accesibility_no_button">Non, poursuivre mon achat au moyen de Visa Checkout</string>
+    <string name="vco_closeOverlay_accesibility_yes_button">Oui, fermer et annuler mon achat au moyen de Visa Checkout</string>
+    <string name="vco_common_accesibility_closeButton">Fermer Visa Checkout</string>
+    <string name="vco_common_accesibility_close_vco_overlay">Voulez-vous fermer Visa Checkout?</string>
+    <string name="vco_common_accesibility_loadingAnimation">Votre page est en chargement</string>
+    <string name="vco_common_accesibility_vco_logo">Logo de Visa Checkout</string>
+    <string name="vco_common_accessibility_secure_lock">Vous êtes sur une page sécurisée.</string>
+    <string name="vco_common_accessibility_tcTitle">"Conditions d'utilisation"</string>
+    <string name="vco_common_alertMessage_rdsAccountLockedInfo">"Pour votre protection et afin d'empêcher tout accès non autorisé, nous avons verrouillé votre compte. Veuillez communiquer avec le service à la clientèle."</string>
+    <string name="vco_common_alert_discardChangesTitle">Annuler les modifications</string>
+    <string name="vco_common_alert_exit">Quitter</string>
+    <string name="vco_common_alert_exitConfirmDeleteAddressTitle">Supprimer</string>
+    <string name="vco_common_alert_exitConfirmDeleteAddressTitleText">Voulez-vous vraiment supprimer cette adresse de livraison?</string>
+    <string name="vco_common_alert_exitEnrollmentTitle">"Quitter l'inscription"</string>
+    <string name="vco_common_alert_exitEnrollmentTitleText">Voulez-vous vraiment interrompre la création de votre compte?</string>
+    <string name="vco_common_alert_exitTitle">Quitter paiement</string>
+    <string name="vco_common_alert_exitTitleText">Voulez-vous vraiment fermer Visa Checkout?</string>
+    <string name="vco_common_alert_lockedTitle">Compte verrouillé</string>
+    <string name="vco_common_alert_lockedTitleText">"Pour empêcher tout accès non autorisé, nous avons verrouillé votre compte pour une durée d'une heure. Veuillez réessayer plus tard."</string>
+    <string name="vco_common_alert_maxAttemptsTitle">Compte verrouillé</string>
+    <string name="vco_common_alert_maxAttemptsTitleText">Veuillez nous excuser du désagrément, vous avez dépassé le nombre de tentatives autorisé. Vous pouvez réessayer dans une heure.</string>
+    <string name="vco_common_alert_retry">Réessayer</string>
+    <string name="vco_common_alert_retryTitleText">Il semble y avoir un problème avec la suppression de cette adresse. Voulez-vous réessayer?</string>
+    <string name="vco_common_alert_saveChangesTitle">Enregistrer les changements?</string>
+    <string name="vco_common_alert_signinFailureTitle">Connexion impossible</string>
+    <string name="vco_common_alert_usernameButtonText">"Une représentation de votre carte de crédit ou de débit sera affichée dans Visa Checkout afin de vous offrir une expérience d'achat plus personnalisée"</string>
+    <string name="vco_common_alert_usernameRememberText">Votre nom d’utilisateur sera enregistré sur cet appareil. Ne saisissez que votre mot de passe lorsque vous ouvrez une session.</string>
+    <string name="vco_common_alert_usernameTitle">Personnalisez votre expérience avec Visa Checkout!</string>
+    <string name="vco_common_btn_addCardToMerchant">Ajouter une carte à un marchand</string>
+    <string name="vco_common_btn_addressSuggestionUseThis">Utiliser cette adresse</string>
+    <string name="vco_common_btn_cancel">Annuler</string>
+    <string name="vco_common_btn_createPassword">Mot de passe</string>
+    <string name="vco_common_btn_delete">Supprimer</string>
+    <string name="vco_common_btn_deviceLockedReturnMerchant">Retour au site du marchand</string>
+    <string name="vco_common_btn_editAddress">Modifier cette adresse</string>
+    <string name="vco_common_btn_forgotPasswordSendinstructions">Envoyer code</string>
+    <string name="vco_common_btn_forgotPasswordSubmit">Envoyer</string>
+    <string name="vco_common_btn_learnMore">( ? )</string>
+    <string name="vco_common_btn_loginOtpGetNewResetCode">Obtenir un nouveau code de vérification</string>
+    <string name="vco_common_btn_no">Non</string>
+    <string name="vco_common_btn_okay">OK</string>
+    <string name="vco_common_btn_otpGetNewResetCode">Obtenir un nouveau code de réinitialisation</string>
+    <string name="vco_common_btn_pay">Payer</string>
+    <string name="vco_common_btn_retry">Réessayer</string>
+    <string name="vco_common_btn_saveAddress">Enregistrer cette adresse</string>
+    <string name="vco_common_btn_updateTcAgree">Accepter et continuer</string>
+    <string name="vco_common_btn_updateTcDisagree">Refuser et fermer la session</string>
+    <string name="vco_common_btn_visaCheckout">Visa Checkout</string>
+    <string name="vco_common_btn_yes">Oui</string>
+    <string name="vco_common_country_argentina">Argentine</string>
+    <string name="vco_common_country_australia">Australie</string>
+    <string name="vco_common_country_brazil">Brésil</string>
+    <string name="vco_common_country_canada">Canada</string>
+    <string name="vco_common_country_chile">Chili</string>
+    <string name="vco_common_country_china">Chine</string>
+    <string name="vco_common_country_colombia">Colombie</string>
+    <string name="vco_common_country_france">France</string>
+    <string name="vco_common_country_hongkong">Hong Kong</string>
+    <string name="vco_common_country_india">Inde</string>
+    <string name="vco_common_country_ireland">Irlande</string>
+    <string name="vco_common_country_kuwait">Koweït</string>
+    <string name="vco_common_country_malaysia">Malaisie</string>
+    <string name="vco_common_country_mexico">Mexique</string>
+    <string name="vco_common_country_newZealand">Nouvelle-Zélande</string>
+    <string name="vco_common_country_peru">Pérou</string>
+    <string name="vco_common_country_poland">Pologne</string>
+    <string name="vco_common_country_qatar">Qatar</string>
+    <string name="vco_common_country_saudi_arabia">Arabie saoudite</string>
+    <string name="vco_common_country_singapore">Singapour</string>
+    <string name="vco_common_country_southAfrica">Afrique du Sud</string>
+    <string name="vco_common_country_spain">Espagne</string>
+    <string name="vco_common_country_uae">Émirats arabes unis</string>
+    <string name="vco_common_country_ukraine">Ukraine</string>
+    <string name="vco_common_country_unitedKingdom">Royaume-Uni</string>
+    <string name="vco_common_country_unitedStates">États-Unis</string>
+    <string name="vco_common_credit">Crédit</string>
+    <string name="vco_common_electron_debit">Electron débit</string>
+    <string name="vco_common_error_addFirstNameOnCardInvalid">Vous avez saisi un caractère invalide. Veuillez saisir votre prénom à nouveau.</string>
+    <string name="vco_common_error_addFirstNameOnCardRequired">Saisissez votre prénom</string>
+    <string name="vco_common_error_addLastNameOnCardInvalid">Vous avez saisi un caractère invalide. Veuillez saisir votre nom de famille à nouveau.</string>
+    <string name="vco_common_error_addLastNameOnCardRequired">Saisissez votre nom de famille</string>
+    <string name="vco_common_error_enroll_generic">Nous sommes désolés, mais nous ne pouvons pas traiter votre demande actuellement. Veuillez réessayer plus tard, ou bien créez un nouveau compte.</string>
+    <string name="vco_common_error_generic">Nous sommes désolés, mais nous ne pouvons pas traiter votre demande actuellement. Veuillez réessayer plus tard, ou bien créez un nouveau compte.</string>
+    <string name="vco_common_error_genericApologize">Nous sommes désolés, mais nous ne pouvons pas traiter votre demande actuellement. Nous sommes désolés pour le désagrément occasionné.</string>
+    <string name="vco_common_error_internalErrorCausedSdkExit">"Une erreur interne a entraîné l'annulation du paiement."</string>
+    <string name="vco_common_error_invalidPassword">Veuillez choisir un autre mot de passe qui réponde aux exigences minimales</string>
+    <string name="vco_common_error_networkProblem">Il semble y avoir un problème avec le réseau. Veuillez réessayer.</string>
+    <string name="vco_common_error_noCardsOnFile">"Oups! Il semble que vous n'ayez aucune carte enregistrée. Ajoutez une carte de crédit ou de débit pour poursuivre votre achat."</string>
+    <string name="vco_common_error_ofacDeny">Votre compte Visa Checkout est actuellement indisponible. Veuillez communiquer avec le service à la clientèle.</string>
+    <string name="vco_common_error_passwordConsecutiveIdenticalChars">Il n\'est pas autorisé d\'utiliser plus de3 caractères identiques consécutifs.</string>
+    <string name="vco_common_error_passwordContainsPortionOfAccountNameOrSpace">"Le mot de passe ne doit pas contenir d'espaces ou une partie de votre nom utilisateur"</string>
+    <string name="vco_common_error_passwordInsufficient">Le mot de passe doit comporter au moins 6 caractères</string>
+    <string name="vco_common_error_passwordInvalidChars">Caractères spéciaux autorisés : ! @ # $ % &amp; * ?</string>
+    <string name="vco_common_error_passwordTooLong">Le mot de passe ne doit pas comporter plus de 32 caractères</string>
+    <string name="vco_common_error_paymentProblem">Votre paiement ne peut être traité. Veuillez corriger les données de votre carte et réessayer.</string>
+    <string name="vco_common_error_sessionExpiredTitle">Session expirée</string>
+    <string name="vco_common_error_sessionTimedOut">À des fins de sécurité, votre session a expiré pour inactivité</string>
+    <string name="vco_common_error_signinChallengeLock">"Nous sommes désolés, mais la réponse que vous avez fournie ne correspond pas à celle qui figure au dossier. Pour votre protection et afin d'empêcher tout accès non autorisé, nous avons temporairement verrouillé votre compte. Veuillez réessayer plus tard, ou bien créez un nouveau compte."</string>
+    <string name="vco_common_error_signinLock">Nous sommes désolés, mais pour votre protection, nous avons verrouillé votre compte. Cliquez sur « Mot de passe oublié » si vous avez oublié votre mot de passe, ou bien créez un nouveau compte si vous avez oublié votre nom d’utilisateur.</string>
+    <string name="vco_common_error_signinLoginFailed">Nous sommes désolés, mais nous ne parvenons pas à trouver votre compte. Veuillez vérifier votre nom d’utilisateur et votre mot de passe.</string>
+    <string name="vco_common_error_somethingWentWrong">Nous sommes désolés de tout inconvénient, mais nous éprouvons des difficultés techniques. Réessayez plus tard.</string>
+    <string name="vco_common_error_somethingWentWrongTitle">Un problème est survenu.</string>
+    <string name="vco_common_error_unableToProcessRequest">Nous sommes désolés, mais nous ne pouvons pas traiter votre demande actuellement. Veuillez réessayer plus tard.</string>
+    <string name="vco_common_error_usernameAlreadyPresent">Un nom d’utilisateur est déjà associé à cette adresse électronique. Si vous avez oublié votre mot de passe, veuillez utiliser « Mot de passe oublié » pour le réinitialiser.</string>
+    <string name="vco_common_error_usernameConflict">Selon nos dossiers, un compte Visa Checkout est déjà associé à cette adresse électronique ou à ce numéro de téléphone mobile.</string>
+    <string name="vco_common_hint_emailAddress">Adresse électronique</string>
+    <string name="vco_common_label_cardDescription">Visa…1234</string>
+    <string name="vco_common_label_cityStateZip">Ville, code postal, code Zip</string>
+    <string name="vco_common_label_confirmFingerprintNow">Confirmez votre empreinte digitale.</string>
+    <string name="vco_common_label_cookies">Témoins</string>
+    <string name="vco_common_label_cookiesContentDescription">Témoins. Lien</string>
+    <string name="vco_common_label_footerText">Soyez avisé que si ces témoins sont désactivés, il se peut que certaines fonctionnalités du site Visa Checkout ne fonctionnent pas comme elles le devraient, tel que décrit dans la politique ci-dessus.</string>
+    <string name="vco_common_label_forgotPassword">Mot de passe oublié?</string>
+    <string name="vco_common_label_preferenceAnalytics">Accepter les témoins de préférence, d’analyse et publicitaires</string>
+    <string name="vco_common_label_privacy">Confidentialité</string>
+    <string name="vco_common_label_privacyContentDescription">Politique de confidentialité. Lien</string>
+    <string name="vco_common_label_sandboxWatermark">À DES FINS DE TEST SEULEMENT</string>
+    <string name="vco_common_label_sendEmailusing">"Envoyer un courriel à l'aide de :"</string>
+    <string name="vco_common_label_signUpConfirmation">Votre compte Visa Checkout a été créé !</string>
+    <string name="vco_common_label_terms">Conditions</string>
+    <string name="vco_common_label_termsContentDescription">Conditions d’utilisation. Lien</string>
+    <string name="vco_common_visa_credit">Crédit Visa</string>
+    <string name="vco_common_visa_electron_debit">Visa Electron débit</string>
+    <string name="vco_createAccount_alertMessage_internationalSanctions">Je consens à ce que mes renseignements soient utilisés à des fins de vérification liée aux listes de sanctions internationales.</string>
+    <string name="vco_createAccount_alertTitle_internationalSanctions">Sanctions internationales</string>
+    <string name="vco_createAccount_alertTitle_termsNConditions">"Conditions d'utilisation"</string>
+    <string name="vco_createAccount_alert_termsPaginationOne">1 sur 2</string>
+    <string name="vco_createAccount_btn_disagree">Refuser</string>
+    <string name="vco_createAccount_error_createAccountUsernamePhoneNumberRequired">Saisissez le numéro de téléphone mobile</string>
+    <string name="vco_createAccount_hint_cpf_field">CPF additionnel</string>
+    <string name="vco_createAccount_hint_cpf_secondary">XXX.XXX.XXX-XX</string>
+    <string name="vco_createAccount_hint_createAccountPassword">Créer un mot de passe</string>
+    <string name="vco_createAccount_hint_createAccountUsernamePhoneNumber">Numéro de téléphone portable</string>
+    <string name="vco_createAccount_hint_password_noHint"/>
+    <string name="vco_createAccount_hint_secondaryCreateaccountusernamephonenumber">(xxx) xxx - xxxx</string>
+    <string name="vco_createAccount_hint_secondaryCreateaccountusernamephonenumber_au">Xxx  xxx-xxxx</string>
+    <string name="vco_createAccount_label_agree">Accepter</string>
+    <string name="vco_createAccount_label_createAccountTitle">Créer un compte</string>
+    <string name="vco_createAccount_label_createAccountUseMobileNumberLinkContentDescription">Utiliser plutôt un numéro de téléphone mobile comme nom d’utilisateur. Lien</string>
+    <string name="vco_createAccount_label_createAccountUsernameEmail">Adresse électronique de connexion</string>
+    <string name="vco_createAccount_label_create_password">Créer un mot de passe</string>
+    <string name="vco_createAccount_label_next_review_and_continue_payment_details"><b>Suivant:</b>Vérifier et confirmer vos coordonnées de paiement</string>
+    <string name="vco_createAccount_label_selectCountry">Sélectionnez un pays</string>
+    <string name="vco_createAccount_label_signInRememberMeMsg">Facilitez l’ouverture d’une session sur cet appareil</string>
+    <string name="vco_createAccount_label_terms_n_conditions">"Je reconnais et confirme par la présente avoir lu et compris les &lt;a href="terms">Conditions d'utilisation&lt;/a> et la &lt;a href="privacy">Politique de confidentialité&lt;/a> de Visa Checkout, et accepte d'être lié par elles. J’accepte également la &lt;a href="electroniccom »>Politique sur les communications électroniques&lt;/a> de Visa Checkout et consens à recevoir des communications par courriel plutôt que par courrier postal."</string>
+    <string name="vco_createPassword_error_password_must_change">Mot de passe invalide. Le nouveau mot de passe doit être différent du précédent.</string>
+    <string name="vco_credit_only_message">Ce marchand n\'accepte pas les cartes Electron (débit). Veuillez sélectionner Crédit pour utiliser cette carte.</string>
+    <string name="vco_debit_only_message">Ce marchand n\'accepte pas les paiements par crédit. Veuillez sélectionner Visa Electron (débit) pour utiliser cette carte.</string>
+    <string name="vco_email_customer_support">support@mail.checkout.visa.com</string>
+    <string name="vco_error_crimea_address">Les données saisies ne sont pas prises en charge. Veuillez communiquer avec le &lt;a href="contactcustomer">service à la clientèle.&lt;/a></string>
+    <string name="vco_exo_close_btn">Fermer</string>
+    <string name="vco_exo_create_pwd_allowed_special_chars">\u2022 Symboles acceptables: ! @ # $ % &amp; * ?</string>
+    <string name="vco_exo_create_pwd_consec_chars">\u2022 Impossible d\'utiliser 3 ou plus de personnages répétitifs consécutifs</string>
+    <string name="vco_exo_create_pwd_email_portion">\u2022 Ne peut pas avoir une partie de votre courrier électronique</string>
+    <string name="vco_exo_create_pwd_invalid_password">Mot de passe invalide</string>
+    <string name="vco_exo_create_pwd_length">\u2022 De 6 à 32 caractères</string>
+    <string name="vco_exo_forgotpwd_sendCode_contentDescr">Envoyer un code de vérification à votre adresse courriel</string>
+    <string name="vco_exo_hint_password">Saisissez le mot de passe</string>
+    <string name="vco_exo_label_createPassword">Entrez un nouveau mot de passe ci-dessous. Vous pourrez poursuivre votre achat après avoir créé votre mot de passe.</string>
+    <string name="vco_exo_label_forgotPasswordLink">Oublié?</string>
+    <string name="vco_exo_otp_could_not_confirm_label">Nous n\'avons pas pu confirmer le code</string>
+    <string name="vco_exo_otp_device_locked_info">Nous ne pouvons malheureusement pas compléter cette étape. Votre compte a été verrouillé temporairement pour des raisons de sécurité. Veuillez réessayer plus tard ou communiquer avec le  &lt;a href=\"contactcustomer\">service à la clientèle&lt;/a> .</string>
+    <string name="vco_exo_otp_label_getVerificationCode">Assurons-nous que c\'est vous</string>
+    <string name="vco_exo_otp_label_newVerificationCodeInfo">Vous avez atteint le nombre maximal de tentatives autorisées avec votre code de vérification actuel. Nous vous enverrons un autre code afin que vous puissiez continuer et confirmer votre identité.</string>
+    <string name="vco_exo_otp_label_new_getVerificationCode">Obtenir un nouveau code de vérification</string>
+    <string name="vco_exo_otp_label_sendVerificationCodeInfo">Un code sera envoyé à votre adresse courriel. Utilisez le code pour vérifier votre compte.</string>
+    <string name="vco_exo_otp_label_sendVerificationCodeInformation">Pour préserver la sécurité de votre compte, nous allons vous envoyer un code de vérification par courriel. Veuillez utiliser ce code pour confirmer votre identité.</string>
+    <string name="vco_exo_otp_label_send_newcode">Envoyer nouveau code</string>
+    <string name="vco_forgorPassword_label_collectUsername">Mot de passe oublié? Saisissez votre adresse électronique afin de recevoir des instructions.</string>
+    <string name="vco_forgotPassword_error_notFound">"Nous n'avons pas trouvé cette adresse électronique dans notre système. Essayez de saisir une autre adresse électronique, ou bien créez un nouveau compte Visa Checkout."</string>
+    <string name="vco_forgotPassword_error_resetCodeRequired">Saisissez le code de réinitialisation</string>
+    <string name="vco_forgotPassword_label_adviceText">"Saisissez l'adresse électronique associée à votre compte Visa Checkout, nous vous enverrons ensuite un code pour réinitialiser votre mot de passe."</string>
+    <string name="vco_forgotPassword_label_codeSent">Vous avez oublié votre mot de passe? Un code de réinitialisation vous a été envoyé par courriel.</string>
+    <string name="vco_forgotPassword_label_collectCodeAdvicetext2">"Un nouveau code a été envoyé à %1$s. Si vous ne l'avez pas encore reçu, patientez quelques minutes. Veuillez suivre les instructions figurant dans le courriel."</string>
+    <string name="vco_forgotPassword_label_collectCodeEmailNotreceived">Vous ne trouvez pas le courriel?</string>
+    <string name="vco_forgotPassword_label_collectCodeTitle">Saisissez le code de réinitialisation du mot de passe</string>
+    <string name="vco_forgotPassword_label_getNewCodeAdviceText">Nous allons envoyer un autre code de réinitialisation de mot de passe à %1$s.</string>
+    <string name="vco_forgotPassword_label_getNewCodeTitle">Obtenir un nouveau code de réinitialisation</string>
+    <string name="vco_forgotPassword_label_title">Mot de passe oublié?</string>
+    <string name="vco_forgotPassword_label_waitFewMoreMinutes">Patienter encore quelques minutes : votre connexion Internet ou votre fournisseur de service courriel a peut-être besoin de plus de temps.</string>
+    <string name="vco_forgotPassword_minimum_character">Au moins 6 caractères</string>
+    <string name="vco_forgotPassword_textfieldHint_collectCode">Saisissez le code</string>
+    <string name="vco_fp_accesibility_fingerprint_image">Image de l\'empreinte digitale</string>
+    <string name="vco_fp_accesibility_forgot_password">Vous avez oublié votre mot de passe Visa Checkout? Réinitialisez votre mot de passe</string>
+    <string name="vco_fp_accesibility_invalid_finger_print">Votre empreinte digitale ne correspond pas. Veuillez réessayer.</string>
+    <string name="vco_fp_accesibility_signInScreenTitle">Bienvenue à nouveau à l\'authentification par empreinte digitale de Visa Checkout</string>
+    <string name="vco_fp_btn_cancel">ANNULER</string>
+    <string name="vco_fp_btn_use_password">UTILISER LE MOT DE PASSE</string>
+    <string name="vco_fp_error_no_match">Les mots de passe ne correspondent pas. Veuillez réessayer.</string>
+    <string name="vco_fp_error_session_expired">Ouvrez une session pour recommencer l\'achat</string>
+    <string name="vco_fp_error_session_expired_inactivity">Afin de protéger votre compte Visa Checkout, nous avons fermé votre session. Ouvrez une nouvelle session pour recommencer.</string>
+    <string name="vco_fp_label_sign_in_successful">Connexion réussie!</string>
+    <string name="vco_label_createAccount_hide_password">Masquer</string>
+    <string name="vco_label_createAccount_show_password">Afficher</string>
+    <string name="vco_login_btn_cust_support">Service à la clientèle</string>
+    <string name="vco_login_btn_forgot_pwd">MOT DE PASSE OUBLIÉ</string>
+    <string name="vco_login_btn_reset_pwd">RÉINITIALISER LE MOT DE PASSE</string>
+    <string name="vco_login_label_contact_cust_support">Communiquer avec le service à la clientèle</string>
+    <string name="vco_login_label_cust_support_help">Par mesure de sécurité, nous avons verrouillé votre compte Visa Checkout. Veuillez communiquer avec le service à la clientèle pour obtenir de l\'aide.</string>
+    <string name="vco_login_label_device_lock">Par mesure de sécurité, nous avons verrouillé Visa Checkout sur cet appareil. Veuillez réessayer plus tard.</string>
+    <string name="vco_login_label_forgot_pwd_info">Nous sommes désolés, le mot de passe que vous avez entré ne correspond pas à celui que nous avons. Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser à l\'aide du bouton  \"Mot de passe oublié\".</string>
+    <string name="vco_login_label_forgot_pwd_ques">Avez-vous oublié votre mot de passe?</string>
+    <string name="vco_login_label_reset_pwd">Réinitialiser le mot de passe</string>
+    <string name="vco_login_label_reset_pwd_info">Par mesure de sécurité, nous avons temporairement verrouillé votre compte Visa Checkout. Veuillez réessayer plus tard ou réinitialiser votre mot de passe.</string>
+    <string name="vco_login_label_reset_your_pwd">Réinitialiser votre mot de passe</string>
+    <string name="vco_login_label_sign_into_vco">Ouvrir une session Visa Checkout</string>
+    <string name="vco_login_label_try_again_later">Veuillez réessayer plus tard</string>
+    <string name="vco_otp_btn_confirmCode">Confirmer le code</string>
+    <string name="vco_otp_error_expiredMessage">Nous sommes désolés, mais vous avez dépassé le nombre de tentatives autorisé avec ce code de réinitialisation. Pour poursuivre, veuillez demander un nouveau code et réessayer.</string>
+    <string name="vco_otp_error_expiredOtp">"Votre code de vérification n'est plus valide. Veuillez demander un nouveau code et réessayer."</string>
+    <string name="vco_otp_error_no_email_info">"l'adresse électronique associée à votre compte Visa Checkout."</string>
+    <string name="vco_otp_error_otpResetcodeNotmatch">Nous sommes désolés, mais le code que vous avez saisi ne correspond pas à celui que nous vous avons envoyé. Veuillez réessayer.</string>
+    <string name="vco_otp_error_passcodeInvalid">Code de vérification invalide</string>
+    <string name="vco_otp_error_signinWithAnotherAccount">Vous pouvez aussi&lt;a href="signinasanewuser"> ouvrir une session&lt;/a> au moyen d\'un autre compte Visa Checkout.</string>
+    <string name="vco_otp_hint_asterisk">*</string>
+    <string name="vco_otp_hint_passCode">Code</string>
+    <string name="vco_otp_label_checkSpam">Vérifier votre répertoire de pourriels</string>
+    <string name="vco_otp_label_createPassword">Créer un nouveau mot de passe</string>
+    <string name="vco_otp_label_createPasswordShowPassword">Afficher le mot de passe</string>
+    <string name="vco_otp_label_createPasswordTitle">Créez votre mot de passe</string>
+    <string name="vco_otp_label_deviceLockedAdviceText">"Nous sommes désolés, mais nous n'avons pas pu confirmer votre code pour l'instant. Pour votre protection, nous avons temporairement verrouillé votre compte."</string>
+    <string name="vco_otp_label_deviceLockedTitle">Impossible de confirmer le code de réinitialisation</string>
+    <string name="vco_otp_label_dontSeeEmailAdvicetext">"Si vous n'avez toujours rien reçu, vérifiez votre adresse électronique. Celle que vous avez saisie n'est peut-être pas associée à ce compte Visa Checkout.
+ Réessayez de vous &lt;a href="signin">connecter&lt;/a>, ou continuez en tant que &lt;a href="signup">nouveau client&lt;/a>."</string>
+    <string name="vco_otp_label_email">Adresse électronique :</string>
+    <string name="vco_otp_label_enterPassword">Il vous suffit de créer un nouveau mot de passe puis de passer à la vérification de votre achat</string>
+    <string name="vco_otp_label_enterVerificationCode">Entrer le code de vérification</string>
+    <string name="vco_otp_label_forgotpasswordDontSeeEmailTitle">"Si vous n'avez pas encore reçu le courriel, voici quelques conseils :"</string>
+    <string name="vco_otp_label_getVerificationCode">Obtenir un code de vérification</string>
+    <string name="vco_otp_label_header">Entrez votre code de vérification</string>
+    <string name="vco_otp_label_loginOtpGetNewCodeAdviceText">Nous allons envoyer un autre code de vérification à %1$s.</string>
+    <string name="vco_otp_label_loginOtpGetNewCodeTitle">Obtenir un nouveau code de vérification</string>
+    <string name="vco_otp_label_not_receive_email"> Je ne l\'ai pas reçu?</string>
+    <string name="vco_otp_label_otpSent">"Un code a été envoyé à %1$s. Si vous ne l'avez pas encore reçu, patientez quelques minutes. Veuillez suivre les instructions figurant dans le courriel."</string>
+    <string name="vco_otp_label_receive_email">Vous devriez recevoir votre code par courriel sous peu.</string>
+    <string name="vco_otp_label_resend">Renvoyer</string>
+    <string name="vco_otp_label_resendCode">Renvoyer le code</string>
+    <string name="vco_otp_label_sendVerificationCodeInfo">"Nous enverrons un code de vérification à l'adresse électronique associée à votre compte Visa Checkout."</string>
+    <string name="vco_otp_textfieldHint_createPassword">Nouveau mot de passe</string>
+    <string name="vco_pi_accessibility_amexLogo">Logo American Express</string>
+    <string name="vco_pi_accessibility_discoverLogo">Logo Discover</string>
+    <string name="vco_pi_accessibility_eloLogo">Logo Elo</string>
+    <string name="vco_pi_accessibility_mastercardLogo">Logo MasterCard</string>
+    <string name="vco_pi_accessibility_threeDSLogo">Cette page est protégée par 3DS</string>
+    <string name="vco_pi_accessibility_visaLogo">Logo Visa</string>
+    <string name="vco_pi_alert_confirmDelete">Voulez-vous vraiment supprimer la carte se terminant par %1$s?</string>
+    <string name="vco_pi_alert_confirmDeleteNocard">Voulez-vous vraiment supprimer cette carte?</string>
+    <string name="vco_pi_alert_deleteSuccess">La carte se terminant par %1$s a bien été supprimée.</string>
+    <string name="vco_pi_alert_errorCannotAcceptDifferentCard">"Nous sommes désolés, votre numéro de carte ne peut être accepté pour le moment. Veuillez tenter d'entrer une carte différente."</string>
+    <string name="vco_pi_alert_errorCardAlreadyAdded">Nous sommes désolés, mais le numéro de carte que vous avez saisi existe déjà dans votre compte Visa Checkout. Veuillez essayer une autre carte.</string>
+    <string name="vco_pi_alert_retryDelete">Il semble y avoir un problème avec la suppression de cette carte. Voulez-vous réessayer?</string>
+    <string name="vco_pi_btn_editDone">Mettre à jour et continuer</string>
+    <string name="vco_pi_cardBrandDetected">La marque de carte %1$s a été reconnue.</string>
+    <string name="vco_pi_error_brazilCpfInvalid">CPF invalide</string>
+    <string name="vco_pi_error_brazilCpfMissing">Saisissez le CPF</string>
+    <string name="vco_pi_error_cannotAddPayment">"Impossible d'ajouter une adresse sans que tous les détails de la carte soient valides."</string>
+    <string name="vco_pi_error_cardDateExpired">Votre carte a expiré. Veuillez en sélectionner une autre.</string>
+    <string name="vco_pi_error_cardExpirationDateInvalid">Date invalide</string>
+    <string name="vco_pi_error_cardExpirationDateMissing">Saisissez une date</string>
+    <string name="vco_pi_error_cardInvalid">Numéro de carte invalide</string>
+    <string name="vco_pi_error_cardNicknameEmptyInvalid">Surnom invalide</string>
+    <string name="vco_pi_error_cardNumberMissing">Saisissez un numéro de carte</string>
+    <string name="vco_pi_error_cardSecCodeInvalid">Code de sécurité invalide</string>
+    <string name="vco_pi_error_cardSecCodeMissing">Saisissez le code de sécurité</string>
+    <string name="vco_pi_error_cardUnsupported">Seules les marques de carte ci-dessus sont acceptées par ce marchand.</string>
+    <string name="vco_pi_error_differentAddress">"Nous sommes désolés, une ou plusieurs de vos entrées actuelles semblent incorrectes. Veuillez tenter d'entrer une adresse différente."</string>
+    <string name="vco_pi_error_differentCard">"Nous sommes désolés, l'entrée actuelle de votre numéro de carte semble incorrecte. Veuillez la corriger ou tentez d'entrer une carte différente."</string>
+    <string name="vco_pi_error_differentCardAndDifferentAddress">"Nous sommes désolés, une ou plusieurs de vos entrées actuelles semblent incorrectes. Veuillez les corriger ou tentez d'entrer une carte et une adresse différentes."</string>
+    <string name="vco_pi_error_incorrectDetails">Nous sommes désolés, mais  vos renseignements de paiement sont incorrects. Veuillez réessayer.</string>
+    <string name="vco_pi_error_oneOrMoreDifferentCard">"Nous sommes désolés, une ou plusieurs de vos entrées actuelles semblent incorrectes. Veuillez les corriger ou tentez d'entrer une carte différente."</string>
+    <string name="vco_pi_error_unableToAdd">"Nous sommes désolés, mais  vous ne pourrez pas ajouter de carte de crédit pour l'instant. Essayez une carte existante."</string>
+    <string name="vco_pi_hint_cardCvv">Code de sécurité</string>
+    <string name="vco_pi_hint_cardExpiration">Expire le %1$s/%2$s</string>
+    <string name="vco_pi_hint_cardExpirationContentDescription">"Saisissez la date d'expiration"</string>
+    <string name="vco_pi_hint_cardNickname">Surnom de la carte (optionnel)</string>
+    <string name="vco_pi_hint_cardNumber">Numéro de carte</string>
+    <string name="vco_pi_hint_secondaryCardCvv">xxx</string>
+    <string name="vco_pi_hint_secondaryCardCvvAmex">xxxx</string>
+    <string name="vco_pi_hint_secondaryCardExpiration">MM/AA</string>
+    <string name="vco_pi_hint_secondaryCardNickname">Par ex. : ma carte à points, ma carte conjointe</string>
+    <string name="vco_pi_label_addAddress">Ajouter une nouvelle adresse</string>
+    <string name="vco_pi_label_addCard">Ajouter une nouvelle carte</string>
+    <string name="vco_pi_label_addpaymentTitle">Ajoutez votre carte</string>
+    <string name="vco_pi_label_ba">Adresse de facturation</string>
+    <string name="vco_pi_label_cardBrand">Marque de carte %1$s</string>
+    <string name="vco_pi_label_cardEndingIn">Carte %1$s se terminant par %2$s</string>
+    <string name="vco_pi_label_cardPreferred">Votre carte de paiement préférée</string>
+    <string name="vco_pi_label_cardPreferredMessage">Ceci est votre carte de paiement préférée</string>
+    <string name="vco_pi_label_cardTypeAmex">un numéro à quatre chiffres imprimé sur le devant de la carte, au-dessus du numéro</string>
+    <string name="vco_pi_label_cardTypeNonAmex">un numéro à trois chiffres imprimé au dos de la carte, à droite de la bande de signature</string>
+    <string name="vco_pi_label_editpaymentTitle">Modifiez votre carte</string>
+    <string name="vco_pi_label_footerTerms">"Visa Checkout peut avoir à partager des renseignements sur l’utilisation de cette carte dans Visa Checkout avec l'institution financière émettrice de celle-ci, à des fins de service à la clientèle, d'analyse de l'utilisation du service, de prévention de la fraude et d'opérations marketing liées à Visa Checkout"</string>
+    <string name="vco_pi_label_learnMore">"Il s'agit de l'adresse associée à cette carte sur votre relevé bancaire."</string>
+    <string name="vco_pi_label_mustAddACard">Veuillez ajouter une carte de crédit ou de débit pour poursuivre cet achat.</string>
+    <string name="vco_pi_label_next">Ensuite : vous allez créer votre compte Visa Checkout.</string>
+    <string name="vco_pi_label_nextBillingAddress">Ensuite : ajoutez votre adresse de facturation</string>
+    <string name="vco_pi_textfieldHint_cardExpiration">Expire en</string>
+    <string name="vco_rc_btn_pay_now">PAYER</string>
+    <string name="vco_rc_btn_purchase">POURSUIVRE L\'ACHAT</string>
+    <string name="vco_rc_label_amex_credit">Ma carte de crédit American Express</string>
+    <string name="vco_rc_label_change">Modifier</string>
+    <string name="vco_rc_label_close_vco">Voulez-vous quitter?</string>
+    <string name="vco_rc_label_delivery">Livraison</string>
+    <string name="vco_rc_label_discover_credit">Ma carte de crédit Discover</string>
+    <string name="vco_rc_label_electron_debit">Ma carte Electron (débit)</string>
+    <string name="vco_rc_label_elo_credit">Ma carte de crédit Elo</string>
+    <string name="vco_rc_label_mastercard_credit">Ma carte de crédit MasterCard</string>
+    <string name="vco_rc_label_mastercard_debit">Ma carte de débit MasterCard</string>
+    <string name="vco_rc_label_not_you">(Ce n\'est pas vous?)</string>
+    <string name="vco_rc_label_payment_card">Ma carte de paiement</string>
+    <string name="vco_rc_label_visa_credit">Ma carte de crédit Visa</string>
+    <string name="vco_rc_label_visa_debit">Ma carte de débit Visa</string>
+    <string name="vco_rnc_accesibility_change_address">Ajouter une nouvelle adresse d\'expédition, modifier cette adresse d\'expédition ou choisir une autre adresse d\'expédition</string>
+    <string name="vco_rnc_accesibility_change_card">Ajouter une nouvelle carte, modifier cette carte ou choisir une autre carte</string>
+    <string name="vco_rnc_accesibility_continue_with_purchase">Poursuivre l\'achat</string>
+    <string name="vco_rnc_accesibility_default_address_content">Adresse de livraison : %1$s, %2$s, %3$s, %4$s</string>
+    <string name="vco_rnc_accesibility_default_card_content">Vous paierez avec le surnom de votre carte (%1$s) à l\'aide des quatre derniers chiffres de %2$s.</string>
+    <string name="vco_rnc_accesibility_manualRcScreenName">Bienvenue à nouveau sur Visa Checkout %1$s. Vérifiez et confirmez vos renseignements d\'achat</string>
+    <string name="vco_rnc_accesibility_not_you_text">Vois n\'êtes pas %1$s? Fermez votre session Visa Checkout ou connectez-vous avec un autre compte Visa Checkout</string>
+    <string name="vco_rnc_accesibility_pay_button_text">Vous %1$s maintenant vers %2$s</string>
+    <string name="vco_rnc_accessibility_title">"Vérifiez vos renseignements de paiement et de livraison pour terminer l'achat."</string>
+    <string name="vco_rnc_accessibility_titleDigitalFlow">"Vérifiez vos renseignements de paiement pour terminer l'achat."</string>
+    <string name="vco_rnc_alertMessage_passwordChangeSuccess">Votre mot de passe a été réinitialisé avec succès.</string>
+    <string name="vco_rnc_alert_cardPressed">Vous avez appuyé sur la carte.</string>
+    <string name="vco_rnc_alert_paymentTrayDeleteCard">Supprimer cette carte</string>
+    <string name="vco_rnc_alert_paymentTrayEditCard">Modifier cette carte</string>
+    <string name="vco_rnc_alert_threeDSFailCardMessage">"Votre institution financière n\'a pas pu authentifier cette carte."</string>
+    <string name="vco_rnc_alert_threeDSFailPageMessage">"Nous sommes désolés, mais votre institution financière n'a pas pu authentifier votre carte. Par mesure de sécurité, utilisez une autre carte."</string>
+    <string name="vco_rnc_error_merchant_ship_msg">Ce marchand ne livre pas dans le pays suivant : %1$s</string>
+    <string name="vco_rnc_hint_digitalCheckout">Vous serez dirigé vers %1$s.</string>
+    <string name="vco_rnc_label_cardDetails">Coordonnées de carte</string>
+    <string name="vco_rnc_label_cardExpired">Cette carte est expirée.</string>
+    <string name="vco_rnc_label_cardNotSupported">Ce marchand n’accepte pas la carte %1$s.</string>
+    <string name="vco_rnc_label_lastFourDigitsOfCard_no_nickname">%1$s x-%2$s</string>
+    <string name="vco_rnc_label_lastFourDigitsOfCard_with_nickname">(x-%1$s)</string>
+    <string name="vco_rnc_label_merchantDoesNotAccept">Ce marchand n’accepte pas cette carte.</string>
+    <string name="vco_rnc_label_merchantLogoPressed">Vous avez appuyé sur le logo du marchand.</string>
+    <string name="vco_rnc_label_merchantName">Continuer vers %1$s pour terminer votre achat.</string>
+    <string name="vco_rnc_label_merchantNameAddCard">Continuer pour ajouter votre carte à %1$s</string>
+    <string name="vco_rnc_label_merchantNotSupportBillingAddress">Ce marchand n’accepte pas les adresses de facturation situées dans le pays suivant : %1$s</string>
+    <string name="vco_rnc_label_missingInfo">Des renseignements supplémentaires sont requis avant de pouvoir utiliser cette carte.</string>
+    <string name="vco_rnc_label_payWith">Payer par</string>
+    <string name="vco_rnc_label_selectCard">Choisir une carte</string>
+    <string name="vco_rnc_label_shipTo">Livrer à</string>
+    <string name="vco_rnc_label_threeDSSecureMessageMc">"Cette carte est inscrite à MasterCard® SecureCode™. Pour votre protection, votre institution financière vous demande d'authentifier la transaction avant de poursuivre."</string>
+    <string name="vco_rnc_label_threeDSSecureMessageVisa">"Cette carte est inscrite à Vérifié par Visa. Pour votre protection, votre institution financière vous demande votre mot de passe d'identification client."</string>
+    <string name="vco_rnc_label_total">Total :</string>
+    <string name="vco_signin_accesibility_cancel_vco">Annuler au moyen de Visa Checkout et revenir à %1$s</string>
+    <string name="vco_signin_accesibility_manualSigninScreenTitle">Bienvenue à nouveau sur Visa Checkout %1$s</string>
+    <string name="vco_signin_accesibility_use_password">Ouvrir plutôt une session avec votre mot de passe Visa Checkout</string>
+    <string name="vco_signin_accesibility_wrongPasswordEntered">Vous avez saisi un mot de passe invalide. Veuillez réessayer</string>
+    <string name="vco_signin_accessibility_username">Identifiant</string>
+    <string name="vco_signin_alertTitle_accountLocked">Compte verrouillé</string>
+    <string name="vco_signin_btn_signIn">Gérer</string>
+    <string name="vco_signin_error_usernameInvalid">Identifiant invalide</string>
+    <string name="vco_signin_error_usernameRequired">Saisissez un identifiant</string>
+    <string name="vco_signin_hint_password">Mot de passe</string>
+    <string name="vco_signin_label_enableFingerPrint">Activer l\'empreinte digitale</string>
+    <string name="vco_signin_label_rememberMe">souvenir de moi</string>
+    <string name="vco_signin_label_signIn">ouvrir une session</string>
+    <string name="vco_signin_label_signInForgotPasswordContentDescription">Mot de passe oublié? lien</string>
+    <string name="vco_signin_label_signInModalDesc">Par mesure de sécurité, veuillez ouvrir votre session Visa Checkout afin de poursuivre.</string>
+    <string name="vco_signin_label_signInTitleSignIn">Ouvrez une session pour vous connecter à Visa Checkout</string>
+    <string name="vco_signin_label_signInToContinue">Veuillez ouvrir votre session pour continuer.</string>
+    <string name="vco_signin_label_updateTcAgreePrefix">"Nous avons mis à jour nos conditions d'utilisation."</string>
+    <string name="vco_signin_label_updateTcAgreeSuffix">Veuillez toucher « Accepter et continuer » pour accepter les &lt;a href="terms">Conditions d\'utilisation&lt;/a> et la &lt;a href="privacy">Politique de confidentialité&lt;/a> de Visa Checkout avant de continuer.</string>
+    <string name="vco_signup_alert_learnMore">Votre adresse électronique sera utilisée pour vous transmettre la confirmation de votre commande.</string>
+    <string name="vco_signup_btn_signUpContinue">Continuer en tant que nouveau client</string>
+    <string name="vco_signup_error_emailInvalid">L’adresse courriel que vous avez saisie est invalide. Veuillez réessayer.</string>
+    <string name="vco_signup_error_emailRequired">"Saisissez l'adresse électronique"</string>
+    <string name="vco_signup_error_firstName">Saisissez votre prénom</string>
+    <string name="vco_signup_error_invalidCharactersLastName">Vous avez saisi un caractère invalide. Veuillez saisir votre prénom à nouveau.</string>
+    <string name="vco_signup_error_lastName">Saisissez votre nom de famille</string>
+    <string name="vco_signup_error_lname_invalid_chars">Vous avez saisi un caractère invalide. Veuillez saisir votre nom de famille à nouveau.</string>
+    <string name="vco_signup_hint_signUpFirstName">Prénom</string>
+    <string name="vco_signup_hint_signUpLastName">Nom de famille</string>
+    <string name="vco_signup_label_signUpAlreadyHaveAccount">Vous avez déjà un compte Visa Checkout?</string>
+    <string name="vco_signup_label_signUpContentDescription">"Poursuivre vers l'étape de connexion. Lien"</string>
+    <string name="vco_signup_label_signUpInfo">Ne vous inquiétez pas, vous pouvez quand même payer. Vous pourrez créer un compte au moment du paiement.</string>
+    <string name="vco_signup_label_signUpSignIn">Gérer</string>
+    <string name="vco_signup_label_signUpTitle">Vous débutez sur Visa Checkout?</string>
+    <string name="vco_signup_label_useCookies">"Visa Checkout fait appel à des témoins (cookies) et des technologies similaires. En utilisant Visa Checkout, vous acceptez l'&lt;a href="cookies">utilisation que nous faisons des témoins&lt;/a>."</string>
+    <string name="vco_stepup_alertMessage_accountLocked">"Pour votre protection et afin d'empêcher tout accès non autorisé, nous avons temporairement verrouillé votre compte. Communiquez avec l'assistance client ou réessayez plus tard."</string>
+    <string name="vco_stepup_label_answerListItem">Réponse</string>
+    <string name="vco_touchid_alertMessage_androidTouchidEnable">"Sous Android, l'identification par empreinte digitale vous permettra d'ouvrir votre session Visa Checkout plus rapidement. Désirez-vous l'autoriser dans cette application?"</string>
+    <string name="vco_touchid_alertTitle_fingerprint">Empreintes digitales</string>
+    <string name="vco_touchid_alertTitle_samsungPass">Samsung Pass</string>
+    <string name="vco_touchid_alert_samsungPassEnable">"Samsung Pass vous permettra d'ouvrir votre session Visa Checkout plus rapidement. Désirez-vous l'autoriser dans cette application?"</string>
+    <string name="vco_wc_accesibility_enter_email_address">L\'adresse courriel que vous avez saisie est invalide. Veuillez réessayer</string>
+    <string name="vco_wc_accesibility_more_information">Besoin de renseignements supplémentaires?</string>
+    <string name="vco_wc_accesibility_screenTitle">Bienvenue sur Visa Checkout</string>
+    <string name="vco_wc_enter_email">Pour commencer, entrez votre adresse courriel.</string>
+    <string name="vco_wc_label_cookie_policy">POLITIQUE RELATIVE AUX TÉMOINS</string>
+    <string name="vco_wc_label_email_info">Il se peut que le marchand ait besoin de votre adresse de courriel pour communiquer avec vous au sujet de votre commande.</string>
+    <string name="vco_wc_label_header">Voici un processus de paiement rapide et sécuritaire</string>
+    <string name="vco_we_accesibility_screen_title">Le portefeuille choisi n\'est pas disponible</string>
+    <string name="vco_we_button_use_vco">Utiliser Visa Checkout</string>
+    <string name="vco_we_error_wallet_unavailable">Nos excuses, un problème est survenu avec %1$s. Veuillez ouvrir votre session Visa Checkout afin de poursuivre.</string>
+    <string name="vco_we_header_wallet_unavailable">%1$s non disponible</string>
+    <string name="vco_ws_accesibility_screen_title">Sélectionnez votre portefeuille afin de poursuivre</string>
+    <string name="vco_ws_label_select_wallet">Choisir un portefeuille</string>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Acheter avec Google"</string>
+</resources>

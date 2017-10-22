@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/vco_color_white"
+    android:orientation="vertical">
+  <FrameLayout
+      android:id="@+id/vco_rnc_fl_container"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/vco_signIn_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical">
+      <RelativeLayout
+          android:id="@+id/vco_signIn_ll_email"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:visibility="visible">
+
+        <com.visa.checkout.widget.VisaTextView
+            android:id="@+id/vco_rnc_tv_sign_in_info"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="7dp"
+            android:text="@string/vco_login_label_sign_into_vco"
+            android:gravity="center_horizontal"
+            app:font="@string/font_open_sans_regular"
+            style="@style/text.Xlarge.midblue"/>
+
+        <RelativeLayout
+            android:id="@+id/vco_login_rl_username"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@+id/vco_rnc_tv_sign_in_info"
+            android:layout_centerHorizontal="true">
+
+          <com.visa.checkout.widget.VisaTextView
+              android:id="@+id/vco_signIn_tv_email"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:maxLines="1"
+              android:ellipsize="middle"
+              android:layout_toLeftOf="@+id/vco_signIn_tv_notYou"
+              app:font="@string/font_open_sans_regular"
+              style="@style/text.medium.midblue"/>
+
+          <com.visa.checkout.widget.VisaTextView
+              android:id="@+id/vco_signIn_tv_notYou"
+              android:layout_width="wrap_content"
+              android:layout_height="48dp"
+              android:layout_marginLeft="2dp"
+              android:layout_marginTop="1dp"
+              android:layout_alignParentRight="true"
+              android:clickable="true"
+              android:gravity="center_vertical"
+              android:minWidth="62dp"
+              android:text="@string/vco_rc_label_not_you"
+              app:font="@string/font_open_sans_semi_bold"
+              style="@style/text.small.trueblue"/>
+        </RelativeLayout>
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:id="@+id/vco_signIn_pwd_info"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="20dp"
+          android:layout_marginLeft="16.0dp"
+          android:layout_marginRight="16.0dp"
+          android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:id="@+id/vco_pwd_info"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+          <ImageView
+              android:id="@+id/erroricon"
+              android:layout_width="12dp"
+              android:layout_height="12dp"
+              android:src="@drawable/ic_inline_error_icon"/>
+
+          <android.support.design.widget.TextInputLayout
+              android:id="@+id/input_layout_password"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_toLeftOf="@+id/vco_signIn_tv_forgot"
+              style="@style/Widget.Design.TextInputLayout.Blue">
+
+            <EditText
+                android:id="@+id/vco_login_et_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="-10dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="5dp"
+                android:layout_toEndOf="@+id/erroricon"
+                android:contentDescription="@string/vco_signin_hint_password"
+                android:height="48dp"
+                android:hint="@string/vco_signin_hint_password"
+                android:inputType="textPassword"
+                android:textSize="16dp">
+            </EditText>
+
+          </android.support.design.widget.TextInputLayout>
+
+          <com.visa.checkout.widget.VisaTextView
+              android:id="@+id/vco_signIn_tv_forgot"
+              android:layout_width="wrap_content"
+              android:layout_height="48dp"
+              android:layout_alignParentRight="true"
+              android:layout_marginBottom="-10dp"
+              android:layout_marginTop="15dp"
+              android:clickable="true"
+              android:contentDescription="@string/vco_fp_accesibility_forgot_password"
+              android:gravity="center_vertical"
+              android:minWidth="70dp"
+              android:paddingLeft="10dp"
+              android:text="@string/vco_exo_label_forgotPasswordLink"
+              app:font="@string/font_open_sans_semi_bold"
+              style="@style/text.small.trueblue"/>
+
+          <com.visa.checkout.widget.LinearProgress
+              android:id="@+id/vco_linear_progress"
+              android:layout_width="match_parent"
+              android:layout_height="2.5dp"
+              android:layout_alignParentBottom="true"
+              android:layout_marginLeft="11dp"
+              android:layout_marginRight="11dp"
+              android:visibility="gone"/>
+
+          <View
+              android:id="@+id/vco_rnc_view_line"
+              android:layout_width="match_parent"
+              android:layout_height="2.5dp"
+              android:layout_alignParentBottom="true"
+              android:layout_marginLeft="11dp"
+              android:layout_marginRight="11dp"
+              android:background="@color/vco_color_lavender_gray"/>
+
+        </RelativeLayout>
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:id="@+id/com_visa_checkout_rlSignInUsernamePreferencesContainer"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="20dp"
+          android:layout_marginLeft="27dp"
+          android:layout_marginRight="27dp"
+          android:background="@color/vco_color_white">
+
+        <CheckBox
+            android:id="@+id/com_visa_checkout_cbSignInFpPreferences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:drawableLeft="@drawable/com_visa_checkout_check_selector"
+            android:drawablePadding="10dp"
+            android:text="@string/vco_signin_label_enableFingerPrint"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            style="@style/vco_sign_in_cb"/>
+
+        <CheckBox
+            android:id="@+id/com_visa_checkout_cbSignInRememberMePreferences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/com_visa_checkout_check_selector"
+            android:drawablePadding="10dp"
+            android:text="@string/vco_signin_label_rememberMe"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            style="@style/vco_sign_in_cb"/>
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:id="@+id/vco_signIn_rl_btn"
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:layout_marginTop="2dp">
+        <com.visa.checkout.widget.VisaButton
+            android:id="@+id/vco_signIn_btn_continue"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/vco_signin_label_signInTitleSignIn"
+            android:gravity="center"
+            android:text="@string/vco_signin_btn_signIn"
+            android:textAllCaps="true"
+            app:font="@string/font_open_sans_bold"
+            style="@style/btn.primary"/>
+
+        <com.visa.checkout.widget.progressbar.CircularLayout
+            android:id="@+id/vco_circularLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true">
+        </com.visa.checkout.widget.progressbar.CircularLayout>
+        <com.visa.checkout.widget.progressbar.VCOProgressSpinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+      </RelativeLayout>
+    </LinearLayout>
+
+    <com.visa.checkout.widget.ExpandableHeader
+        android:id="@+id/vco_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/vco_color_midnight_blue"/>
+
+  </FrameLayout>
+</LinearLayout>

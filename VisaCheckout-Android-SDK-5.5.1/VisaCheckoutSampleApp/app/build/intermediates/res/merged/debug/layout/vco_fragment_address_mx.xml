@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vco_address_form"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <include
+      layout="@layout/vco_address_name_view"
+      android:id="@+id/vco_address_name_layout"/>
+
+  <RelativeLayout
+      android:id="@+id/vco_address_rl_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/vco_address_name_layout">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <EditText
+          android:id="@+id/vco_address_et_street"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:completionThreshold="1"
+          android:imeOptions="actionNext"
+          android:inputType="textCapWords|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_address_max_length"
+          android:tag="@string/vco_rule_street_number"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_exterior_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vco_address_til_street"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <EditText
+          android:id="@+id/vco_address_et_exterior_no"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:completionThreshold="1"
+          android:imeOptions="actionNext"
+          android:inputType="textCapWords|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_address_max_length"
+          android:tag="@string/vco_rule_exterior_no"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_interior_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vco_address_til_exterior_no"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <EditText
+          android:id="@+id/vco_address_et_interior_no"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:imeOptions="actionNext"
+          android:inputType="textCapWords|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_address_max_length"
+          android:tag="@string/vco_rule_interior_no"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_zip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vco_address_til_interior_no"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <EditText
+          android:id="@+id/vco_address_et_zip"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:imeOptions="actionNext"
+          android:inputType="number|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_zip_max_length"
+          android:tag="@string/vco_rule_zip"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:id="@+id/vco_rl_address_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vco_address_til_zip">
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/vco_address_til_colony"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          style="@style/Widget.Design.TextInputLayout.Black">
+
+        <AutoCompleteTextView
+            android:id="@+id/vco_address_et_colony"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="1"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords|textNoSuggestions"
+            android:tag="@string/vco_rule_colony"
+            android:visibility="visible"
+            style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/vco_address_til_municipality"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/vco_address_til_colony"
+          android:layout_marginTop="20dp"
+          style="@style/Widget.Design.TextInputLayout.Black">
+
+        <EditText
+            android:id="@+id/vco_address_et_municipality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords|textNoSuggestions"
+            android:tag="@string/vco_rule_county"
+            android:visibility="visible"
+            style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/vco_address_til_city"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/vco_address_til_municipality"
+          android:layout_marginTop="20dp"
+          style="@style/Widget.Design.TextInputLayout.Black">
+
+        <EditText
+            android:id="@+id/vco_address_et_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords|textNoSuggestions"
+            android:maxLength="@integer/com_visa_checkout_city_max_length"
+            android:tag="@string/vco_rule_city"
+            style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/vco_address_til_state"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/vco_address_til_city"
+          android:layout_marginTop="20dp"
+          style="@style/Widget.Design.TextInputLayout.Black">
+
+        <EditText
+            android:id="@+id/vco_address_et_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vco_address_tv_stateHint"
+            android:background="@drawable/com_visa_checkout_edittext_drawable"
+            android:imeOptions="actionNext"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            android:maxLength="@integer/com_visa_checkout_state_max_length"
+            android:tag="@string/vco_rule_state"
+            style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/vco_address_til_point_of_ref"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/vco_address_til_state"
+          android:layout_marginTop="20dp"
+          style="@style/Widget.Design.TextInputLayout.Black">
+
+        <EditText
+            android:id="@+id/vco_address_et_point_of_ref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords|textNoSuggestions"
+            android:maxLength="@integer/com_visa_checkout_city_max_length"
+            android:tag="@string/vco_rule_point_of_ref"
+            android:visibility="visible"
+            style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+      </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vco_rl_address_container"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <com.visa.checkout.widget.ClearableEditText
+          android:id="@+id/vco_address_et_phone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/com_visa_checkout_thirty_px"
+          android:background="@drawable/com_visa_checkout_edittext_drawable"
+          android:imeOptions="actionDone"
+          android:inputType="text|phone|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_phone_max_length"
+          android:tag="@string/vco_rule_phone_number"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+  </RelativeLayout>
+
+</RelativeLayout>

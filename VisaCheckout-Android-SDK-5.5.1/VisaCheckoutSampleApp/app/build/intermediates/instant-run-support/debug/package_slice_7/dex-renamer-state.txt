@@ -1,0 +1,4 @@
+#Sat Oct 21 14:32:10 PDT 2017
+base.0=/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

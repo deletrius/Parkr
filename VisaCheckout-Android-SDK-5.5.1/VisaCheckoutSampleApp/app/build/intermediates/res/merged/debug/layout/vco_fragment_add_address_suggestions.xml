@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical">
+
+  <com.visa.checkout.widget.ExpandableHeader
+      android:id="@+id/vco_header"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/vco_color_midnight_blue"/>
+
+
+  <ScrollView
+      android:id="@+id/com_visa_checkout_sv_address_suggestion_form_container"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@color/com_visa_checkout_layout_background"
+      android:fillViewport="true"
+      android:isScrollContainer="false">
+
+    <RelativeLayout
+        android:id="@+id/com_visa_checkout_rl_body_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <include
+          layout="@layout/vco_server_side_error"
+          android:id="@+id/com_visa_checkout_address_suggestion_tv_visa_server_side_error"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+      <TextView
+          android:id="@+id/com_visa_checkout_tv_address_suggestion_title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/com_visa_checkout_address_suggestion_tv_visa_server_side_error"
+          android:layout_marginTop="@dimen/com_visa_checkout_sixty_px"
+          android:paddingLeft="@dimen/com_visa_checkout_sixty_px"
+          android:paddingRight="@dimen/com_visa_checkout_sixty_px"
+          android:text="@string/vco_addAddress_label_addressSuggestionVerify"
+          android:textColor="@color/com_visa_checkout_tv_title_color"
+          android:textSize="@dimen/com_visa_checkout_bt_text_size"/>
+
+      <TextView
+          android:id="@+id/com_visa_checkout_tv_address_suggestion_recommended"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@id/com_visa_checkout_tv_address_suggestion_title"
+          android:layout_below="@id/com_visa_checkout_tv_address_suggestion_title"
+          android:layout_marginTop="@dimen/com_visa_checkout_seventy_px"
+          android:paddingLeft="@dimen/com_visa_checkout_sixty_px"
+          android:paddingRight="@dimen/com_visa_checkout_sixty_px"
+          android:text="@string/vco_addAddress_label_addressSuggestionRecommended"
+          android:textColor="@color/com_visa_checkout_tv_title_color"
+          android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"/>
+
+      <FrameLayout
+          android:id="@+id/com_visa_checkout_fragment_container_suggestion_suggested"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@id/com_visa_checkout_tv_address_suggestion_title"
+          android:layout_below="@id/com_visa_checkout_tv_address_suggestion_recommended"
+          />
+
+      <TextView
+          android:id="@+id/com_visa_checkout_tv_address_suggestion_you_entered"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@id/com_visa_checkout_tv_address_suggestion_title"
+          android:layout_below="@id/com_visa_checkout_fragment_container_suggestion_suggested"
+          android:layout_marginTop="@dimen/com_visa_checkout_hundred_twenty_px"
+          android:paddingLeft="@dimen/com_visa_checkout_sixty_px"
+          android:paddingRight="@dimen/com_visa_checkout_sixty_px"
+          android:text="@string/vco_addAddress_label_addressSuggestionYouEntered"
+          android:textColor="@color/com_visa_checkout_tv_title_color"
+          android:textSize="@dimen/com_visa_checkout_forty_two_px_sp"/>
+
+      <FrameLayout
+          android:id="@+id/com_visa_checkout_fragment_container_suggestion_you_entered"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/com_visa_checkout_tv_address_suggestion_you_entered"
+          />
+
+      <include
+          layout="@layout/vco_layout_terms_privacy_lock_footer"
+          android:id="@+id/com_visa_checkout_payment_terms"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_alignLeft="@id/com_visa_checkout_tv_address_suggestion_title"
+          android:layout_below="@id/com_visa_checkout_fragment_container_suggestion_you_entered"/>
+
+    </RelativeLayout>
+  </ScrollView>
+</LinearLayout>

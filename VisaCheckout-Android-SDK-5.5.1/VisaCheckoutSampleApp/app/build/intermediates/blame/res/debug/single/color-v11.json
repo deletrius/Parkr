@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

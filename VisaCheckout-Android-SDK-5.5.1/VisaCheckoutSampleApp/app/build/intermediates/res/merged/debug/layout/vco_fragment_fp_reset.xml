@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/vco_color_white"
+    android:orientation="vertical">
+
+  <FrameLayout
+      android:id="@+id/vco_exo_forgotpwd_fl_container"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/vco_exo_forgotpwd_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vco_exo_forgotpwd_tv_reset_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/vco_login_label_reset_pwd"
+            android:gravity="center_horizontal"
+            android:importantForAccessibility="no"
+            android:text="@string/vco_login_label_reset_pwd"
+            android:textSize="20sp"
+            style="@style/text.Xlarge.midblue"/>
+
+        <com.visa.checkout.widget.VisaTextView
+            android:id="@+id/vco_exo_forgotpwd_tv_sendInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.5dp"
+            android:gravity="center"
+            android:text="@string/vco_exo_otp_label_sendVerificationCodeInfo"
+            app:font="@string/font_open_sans_regular"
+            style="@style/text.medium.midblue"/>
+
+        <com.visa.checkout.widget.VisaTextView
+            android:id="@+id/vco_exo_forgotpwd_tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:textColor="@color/vco_color_midnight_blue"
+            android:textSize="18sp"
+            app:font="@string/font_open_sans_semi_bold"/>
+
+      </LinearLayout>
+
+      <RelativeLayout
+          android:id="@+id/vco_exo_forgotpwd_rl_btn"
+          android:layout_width="match_parent"
+          android:layout_height="60dp">
+
+        <com.visa.checkout.widget.VisaButton
+            android:id="@+id/com_visa_checkout_bt_forgotPassword_sendInstructions"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/vco_accessibility_label_sendsCode"
+            android:text="@string/vco_common_btn_forgotPasswordSendinstructions"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            app:font="@string/font_open_sans_bold"
+            style="@style/btn.primary"/>
+
+        <com.visa.checkout.widget.progressbar.CircularLayout
+            android:id="@+id/vco_circularLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true">
+
+        </com.visa.checkout.widget.progressbar.CircularLayout>
+
+        <com.visa.checkout.widget.progressbar.VCOProgressSpinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+      </RelativeLayout>
+    </LinearLayout>
+
+    <com.visa.checkout.widget.ExpandableHeader
+        android:id="@+id/vco_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/vco_color_midnight_blue"/>
+
+  </FrameLayout>
+</LinearLayout>

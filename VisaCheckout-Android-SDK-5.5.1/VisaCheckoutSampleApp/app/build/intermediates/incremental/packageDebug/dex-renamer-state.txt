@@ -1,0 +1,7 @@
+#Sat Oct 21 14:36:48 PDT 2017
+base.0=/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6e42ce6b6444b620ae977c25d37ab7db92d2bf37
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a5b9cf8851b2f0cfb0002d2cd8c6ff940e0fa236/classes.dex
+base.1=/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a5b9cf8851b2f0cfb0002d2cd8c6ff940e0fa236
+file.0=/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6e42ce6b6444b620ae977c25d37ab7db92d2bf37/classes.dex

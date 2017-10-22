@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/com_visa_checkout_edittext_default_text_color.xml",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/color/com_visa_checkout_edittext_default_text_color.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/gerrycao/.android/build-cache/86527d3b9659303dcd1c900b214694d3a494bc48/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/com_visa_checkout_autocomplete_item_bg_selector.xml",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/color/com_visa_checkout_autocomplete_item_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/gerrycao/.android/build-cache/86527d3b9659303dcd1c900b214694d3a494bc48/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/Users/gerrycao/.android/build-cache/36d244413ae92eb65c0b31c0630b43ce1810c766/output/res/color/wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/gerrycao/.android/build-cache/86527d3b9659303dcd1c900b214694d3a494bc48/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/Users/gerrycao/.android/build-cache/36d244413ae92eb65c0b31c0630b43ce1810c766/output/res/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/gerrycao/.android/build-cache/a95a31828a1b5a381db966b1788f0be89565caab/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/gerrycao/.android/build-cache/4217bc1ef465b015271c73199a0d3885469c175d/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/gerrycao/.android/build-cache/a95a31828a1b5a381db966b1788f0be89565caab/output/res/color/design_tint_password_toggle.xml"
+    }
+]

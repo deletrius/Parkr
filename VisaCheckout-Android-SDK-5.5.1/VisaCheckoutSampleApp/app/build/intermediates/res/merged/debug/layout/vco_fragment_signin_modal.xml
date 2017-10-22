@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+  <com.visa.checkout.widget.ExpandableHeader
+      android:id="@+id/vco_header"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/vco_color_midnight_blue"/>
+
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:background="@color/com_visa_checkout_layout_background">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+      <TextView
+          android:id="@+id/com_visa_checkout_tvSignInModalTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_marginBottom="@dimen/com_visa_checkout_thirty_five_px"
+          android:layout_marginTop="@dimen/com_visa_checkout_forty_px"
+          android:text="@string/vco_signin_label_signInToContinue"
+          style="@style/com_visa_checkout_VisaCheckoutTextViewTitle"/>
+
+      <TextView
+          android:id="@+id/com_visa_checkout_tvSignInModalDesc"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/com_visa_checkout_tvSignInModalTitle"
+          android:layout_marginBottom="@dimen/com_visa_checkout_thirty_five_px"
+          android:layout_marginTop="@dimen/com_visa_checkout_forty_px"
+          android:text="@string/vco_signin_label_signInModalDesc"
+          style="@style/com_visa_checkout_VisaCheckoutTextViewInfoLabel"/>
+
+      <include
+          layout="@layout/vco_server_side_error"
+          android:id="@+id/com_visa_checkout_SignIn_includedServerSideError"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/com_visa_checkout_tvSignInModalDesc"/>
+
+      <TextView
+          android:id="@+id/com_visa_checkout_tvSignInUsernameHint"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/com_visa_checkout_SignIn_includedServerSideError"
+          android:text="@string/vco_signin_accessibility_username"
+          android:visibility="invisible"
+          style="@style/com_visa_checkout_VisaCheckoutHintLabel"/>
+
+      <com.visa.checkout.widget.ClearableEditText
+          android:id="@+id/com_visa_checkout_etSignInUsername"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/com_visa_checkout_tvSignInUsernameHint"
+          android:contentDescription="@string/vco_common_hint_emailAddress"
+          android:hint="@string/vco_common_hint_emailAddress"
+          android:imeOptions="actionNext"
+          android:inputType="textEmailAddress"
+          android:maxLength="256"
+          android:nextFocusDown="@+id/com_visa_checkout_etSignInPassword"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"
+          />
+
+      <TextView
+          android:id="@+id/com_visa_checkout_tvSignInPasswordHint"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/com_visa_checkout_etSignInUsername"
+          android:text="@string/vco_signin_hint_password"
+          android:visibility="invisible"
+          style="@style/com_visa_checkout_VisaCheckoutHintLabel"/>
+
+      <com.visa.checkout.widget.ClearableEditText
+          android:id="@+id/com_visa_checkout_etSignInPassword"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/com_visa_checkout_tvSignInPasswordHint"
+          android:contentDescription="@string/vco_signin_hint_password"
+          android:hint="@string/vco_signin_hint_password"
+          android:imeActionId="@integer/com_visa_checkout_ime_action_done"
+          android:imeActionLabel="@string/vco_signin_btn_signIn"
+          android:inputType="textPassword"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+
+
+      <RelativeLayout
+          android:id="@+id/vco_signinmodal_btn"
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:layout_below="@id/com_visa_checkout_etSignInPassword"
+          android:layout_marginTop="@dimen/com_visa_checkout_sixty_five_px">
+
+        <com.visa.checkout.widget.VisaButton
+            android:id="@+id/com_visa_checkout_btSignIn"
+            android:nextFocusDown="@+id/com_visa_checkout_tvSignInForgotPassword"
+            android:text="@string/vco_signin_btn_signIn"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:font="@string/font_open_sans_bold"
+            style="@style/btn.primary"/>
+
+        <com.visa.checkout.widget.progressbar.CircularLayout
+            android:id="@+id/vco_circularLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"/>
+
+        <com.visa.checkout.widget.progressbar.VCOProgressSpinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+      </RelativeLayout>
+
+      <TextView
+          android:id="@+id/com_visa_checkout_tvSignInForgotPassword"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="@id/com_visa_checkout_btSignIn"
+          android:layout_below="@+id/vco_signinmodal_btn"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="@dimen/com_visa_checkout_hundred_px"
+          android:layout_marginTop="@dimen/com_visa_checkout_sixty_five_px"
+          android:contentDescription="@string/vco_signin_label_signInForgotPasswordContentDescription"
+          android:nextFocusDown="@+id/com_visa_checkout_SignIn_terms"
+          android:text="@string/vco_common_label_forgotPassword"
+          android:textColor="@color/com_visa_checkout_global_font_hyperlink"
+          android:textSize="@dimen/com_visa_checkout_global_font_small"/>
+
+      <include
+          layout="@layout/vco_layout_terms_privacy_lock_footer"
+          android:id="@+id/com_visa_checkout_SignIn_terms"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_below="@+id/com_visa_checkout_tvSignInForgotPassword"/>
+
+    </RelativeLayout>
+  </ScrollView>
+
+
+</LinearLayout>

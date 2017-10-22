@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/vco_card_dots_non_amex.xml",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-anydpi-v21/vco_card_dots_non_amex.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/vco_close_btn.xml",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-anydpi-v21/vco_close_btn.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml",
+        "source": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_inline_error_icon.xml",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-anydpi-v21/ic_inline_error_icon.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_dashboard_black_24dp.xml",
+        "source": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/vco_card_dots_amex.xml",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-anydpi-v21/vco_card_dots_amex.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/gerrycao/.android/build-cache/a95a31828a1b5a381db966b1788f0be89565caab/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/vco_white_icon.xml",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-anydpi-v21/vco_white_icon.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/vco_blue_icon.xml",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-anydpi-v21/vco_blue_icon.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/confirmation_icon.xml",
+        "source": "/Users/gerrycao/.android/build-cache/d59ede174af3f3840ebec9de8a4535a44597803b/output/res/drawable-anydpi-v21/confirmation_icon.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_home_black_24dp.xml",
+        "source": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/gerrycao/parkr/VisaCheckout-Android-SDK-5.5.1/VisaCheckoutSampleApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/gerrycao/.android/build-cache/a95a31828a1b5a381db966b1788f0be89565caab/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    }
+]

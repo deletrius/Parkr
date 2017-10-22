@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_visa_checkout_rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EEA9A9A9">
+
+  <FrameLayout
+      android:id="@+id/com_visa_checkout_vme_main_fragment_holder"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+  <LinearLayout
+      android:id="@+id/com_visa_checkout_ll_transparent_layout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignWithParentIfMissing="true"
+      android:background="@android:color/transparent"
+      android:visibility="gone"
+      android:orientation="vertical"/>
+
+</RelativeLayout>

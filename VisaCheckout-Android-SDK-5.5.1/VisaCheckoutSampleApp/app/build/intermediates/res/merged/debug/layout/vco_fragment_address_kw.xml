@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vco_address_form"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <include
+      layout="@layout/vco_address_name_view"
+      android:id="@+id/vco_address_name_layout"/>
+
+  <RelativeLayout
+      android:id="@+id/vco_address_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/vco_address_name_layout">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <EditText
+          android:id="@+id/vco_address_et_line1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:completionThreshold="1"
+          android:hint="@string/vco_addAddress_hint_addressline"
+          android:imeOptions="actionNext"
+          android:inputType="textCapWords|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_address_max_length"
+          android:tag="@string/vco_rule_line1"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/vco_address_iv_show_line2"
+        android:layout_width="@dimen/com_visa_checkout_forty_px"
+        android:layout_height="@dimen/com_visa_checkout_forty_px"
+        android:layout_alignBottom="@id/vco_address_til_line1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/com_visa_checkout_forty_two_px"
+        android:layout_marginRight="@dimen/com_visa_checkout_eighty_seven_px"
+        android:contentDescription="@string/vco_addAddress_label_showAddressLine2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/com_visa_checkout_ic_add"/>
+
+    <ImageView
+        android:id="@+id/vco_address_iv_erase_field"
+        android:layout_width="@dimen/com_visa_checkout_forty_px"
+        android:layout_height="@dimen/com_visa_checkout_forty_px"
+        android:layout_alignBottom="@id/vco_address_til_line1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/com_visa_checkout_forty_two_px"
+        android:layout_marginRight="@dimen/com_visa_checkout_eighty_seven_px"
+        android:contentDescription="@string/vco_addAddress_label_showAddressLine2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/com_visa_checkout_clear_icon_selector"/>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vco_address_til_line1"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <EditText
+          android:id="@+id/vco_address_et_line2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/vco_addAddress_hint_addressline2Optional"
+          android:imeOptions="actionNext"
+          android:inputType="textCapWords|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_address_max_length"
+          android:tag="@string/vco_rule_line2"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vco_address_til_line2"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <EditText
+          android:id="@+id/vco_address_et_city"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+          android:layout_marginRight="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+          android:hint="@string/vco_addAddress_hint_city"
+          android:imeOptions="actionNext"
+          android:inputType="textCapWords|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_state_max_length"
+          android:tag="@string/vco_rule_city"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vco_address_til_city"
+        android:layout_marginTop="20dp"
+        android:hint="@string/vco_addAddress_hint_stateProvince"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <EditText
+          android:id="@+id/vco_address_et_state"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+          android:layout_marginRight="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+          android:enabled="false"
+          android:hint="@string/vco_addAddress_hint_stateProvince"
+          android:imeOptions="actionNext"
+          android:inputType="textCapWords|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_state_max_length"
+          android:tag="@string/vco_rule_state"
+          android:text="Kuwait"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_zip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vco_address_til_state"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+      <EditText
+          android:id="@+id/vco_address_et_zip"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+          android:layout_marginRight="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+          android:background="@drawable/com_visa_checkout_edittext_drawable"
+          android:hint="@string/vco_addAddress_hint_postalCode"
+          android:imeOptions="actionNext"
+          android:inputType="textCapCharacters|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_zip_max_length"
+          android:tag="@string/vco_rule_zip"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/vco_address_til_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vco_address_til_zip"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.Design.TextInputLayout.Black">
+
+      <com.visa.checkout.widget.ClearableEditText
+          android:id="@+id/vco_address_et_phone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/com_visa_checkout_thirty_px"
+          android:layout_marginLeft="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+          android:layout_marginRight="@dimen/com_visa_checkout_adjusted_horizontal_margin"
+          android:background="@drawable/com_visa_checkout_edittext_drawable"
+          android:hint="@string/vco_addAddress_hint_phoneNumber"
+          android:imeOptions="actionDone"
+          android:inputType="text|phone|textNoSuggestions"
+          android:maxLength="@integer/com_visa_checkout_phone_max_length"
+          android:tag="@string/vco_rule_phone_number"
+          style="@style/com_visa_checkout_VisaCheckoutEditTextWithHint"/>
+    </android.support.design.widget.TextInputLayout>
+
+  </RelativeLayout>
+
+</RelativeLayout>
